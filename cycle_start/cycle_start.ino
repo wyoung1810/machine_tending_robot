@@ -17,10 +17,13 @@ void loop() {
   if ((buttonState != previousButtonState)
       // and it's currently pressed:
       && (buttonState == HIGH)) {
-    // increment the button counter
-    counter++;
+
     // type out a message
-    Keyboard.press(KEY_RETURN);
+    Keyboard.press(KEY_RIGHT_ALT);
+    delay(500);
+    Keyboard.press('R');
+    delay(200);
+    Keyboard.release('R');
     delay(100);
     Keyboard.releaseAll();
   }
