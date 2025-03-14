@@ -1,0 +1,205 @@
+[0.026s] Invoking command in '/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface_testing:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_interface:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros2_control_test_assets:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager_msgs:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface_testing:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_interface:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros2_control_test_assets:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager_msgs:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface_testing/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_interface/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager_msgs/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/src/ros2_control/controller_manager -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager
+[0.085s] -- The C compiler identification is GNU 11.4.0
+[0.142s] -- The CXX compiler identification is GNU 11.4.0
+[0.152s] -- Detecting C compiler ABI info
+[0.220s] -- Detecting C compiler ABI info - done
+[0.228s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.229s] -- Detecting C compile features
+[0.230s] -- Detecting C compile features - done
+[0.233s] -- Detecting CXX compiler ABI info
+[0.312s] -- Detecting CXX compiler ABI info - done
+[0.320s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.320s] -- Detecting CXX compile features
+[0.320s] -- Detecting CXX compile features - done
+[0.324s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.498s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.636s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.637s] -- Found controller_interface: 2.48.0 (/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_interface/share/controller_interface/cmake)
+[0.691s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.698s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.713s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.744s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.784s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.268s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.274s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.329s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.352s] -- Looking for pthread.h
+[1.493s] -- Looking for pthread.h - found
+[1.493s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.601s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.603s] -- Found Threads: TRUE  
+[1.672s] -- Found controller_manager_msgs: 2.48.0 (/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake)
+[1.691s] -- Found realtime_tools: 2.12.0 (/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/share/realtime_tools/cmake)
+[1.741s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.743s] -- Found ros2_control_test_assets: 2.48.0 (/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[1.748s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.754s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.755s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.768s] -- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[3.146s] -- Configuring done
+[3.596s] -- Generating done
+[3.665s] -- Build files have been written to: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/controller_manager
+[3.682s] Invoked command in '/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface_testing:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_interface:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros2_control_test_assets:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager_msgs:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface_testing:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_interface:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros2_control_test_assets:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager_msgs:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface_testing/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_interface/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager_msgs/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/src/ros2_control/controller_manager -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager
+[3.684s] Invoking command in '/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface_testing:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_interface:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros2_control_test_assets:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager_msgs:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface_testing:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_interface:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros2_control_test_assets:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager_msgs:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface_testing/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_interface/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager_msgs/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/controller_manager -- -j20 -l20
+[3.756s] [  2%] [34m[1mGenerating controller_manager/version.h[0m
+[3.757s] [  7%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[3.757s] [  7%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[3.757s] [ 10%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[3.780s] [ 10%] Built target ament_cmake_python_copy_controller_manager
+[3.780s] [ 10%] Built target ament_cmake_python_copy_controller_manager_setup
+[3.781s] [ 10%] Built target ament_generate_version_header__controller_manager
+[3.813s] [ 13%] [32mBuilding CXX object CMakeFiles/controller_manager.dir/src/controller_manager.cpp.o[0m
+[4.324s] running install_scripts
+[4.329s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.329s]   warnings.warn(
+[4.343s] running egg_info
+[4.344s] creating controller_manager.egg-info
+[4.344s] writing controller_manager.egg-info/PKG-INFO
+[4.345s] writing dependency_links to controller_manager.egg-info/dependency_links.txt
+[4.345s] writing entry points to controller_manager.egg-info/entry_points.txt
+[4.345s] writing top-level names to controller_manager.egg-info/top_level.txt
+[4.345s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[4.350s] reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+[4.351s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[4.374s] running egg_info
+[4.376s] writing controller_manager.egg-info/PKG-INFO
+[4.376s] writing dependency_links to controller_manager.egg-info/dependency_links.txt
+[4.376s] writing entry points to controller_manager.egg-info/entry_points.txt
+[4.377s] writing top-level names to controller_manager.egg-info/top_level.txt
+[4.380s] reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+[4.381s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[4.384s] Installing hardware_spawner script to scripts
+[4.384s] Installing spawner script to scripts
+[4.384s] Installing unspawner script to scripts
+[4.397s] [ 13%] Built target ament_cmake_python_build_controller_manager_egg
+[4.430s] [ 13%] Built target ament_cmake_python_build_controller_manager_scripts
+[5.704s] [ 15%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[5.762s] [ 15%] Built target gmock_main
+[13.308s] [ 18%] [32m[1mLinking CXX static library libgmock.a[0m
+[13.387s] [ 18%] Built target gmock
+[32.193s] [ 21%] [32m[1mLinking CXX shared library libcontroller_manager.so[0m
+[32.599s] [ 21%] Built target controller_manager
+[32.623s] [ 23%] [32mBuilding CXX object CMakeFiles/test_controller_manager_urdf_passing.dir/test/test_controller_manager_urdf_passing.cpp.o[0m
+[32.625s] [ 26%] [32mBuilding CXX object CMakeFiles/test_hardware_spawner.dir/test/test_hardware_spawner.cpp.o[0m
+[32.627s] [ 28%] [32mBuilding CXX object CMakeFiles/test_chainable_controller.dir/test/test_chainable_controller/test_chainable_controller.cpp.o[0m
+[32.627s] [ 31%] [32mBuilding CXX object CMakeFiles/ros2_control_node.dir/src/ros2_control_node.cpp.o[0m
+[32.627s] [ 34%] [32mBuilding CXX object CMakeFiles/test_controller_with_interfaces.dir/test/test_controller_with_interfaces/test_controller_with_interfaces.cpp.o[0m
+[32.628s] [ 36%] [32mBuilding CXX object CMakeFiles/test_controller_failed_init.dir/test/test_controller_failed_init/test_controller_failed_init.cpp.o[0m
+[32.629s] [ 39%] [32mBuilding CXX object CMakeFiles/test_controller.dir/test/test_controller/test_controller.cpp.o[0m
+[36.833s] [ 42%] [32m[1mLinking CXX shared library libtest_controller_failed_init.so[0m
+[36.961s] [ 42%] Built target test_controller_failed_init
+[38.228s] [ 44%] [32m[1mLinking CXX shared library libtest_controller.so[0m
+[38.476s] [ 44%] Built target test_controller
+[38.503s] [ 47%] [32mBuilding CXX object CMakeFiles/test_load_controller.dir/test/test_load_controller.cpp.o[0m
+[38.503s] [ 50%] [32mBuilding CXX object CMakeFiles/test_controller_manager.dir/test/test_controller_manager.cpp.o[0m
+[38.507s] [ 52%] [32mBuilding CXX object CMakeFiles/test_controller_manager_with_namespace.cpp.dir/test/test_controller_manager_with_namespace.cpp.o[0m
+[38.507s] [ 55%] [32mBuilding CXX object CMakeFiles/test_spawner_unspawner.dir/test/test_spawner_unspawner.cpp.o[0m
+[38.507s] [ 57%] [32mBuilding CXX object CMakeFiles/test_hardware_management_srvs.dir/test/test_hardware_management_srvs.cpp.o[0m
+[39.933s] [ 60%] [32m[1mLinking CXX executable test_controller_manager_urdf_passing[0m
+[40.306s] [ 60%] Built target test_controller_manager_urdf_passing
+[40.445s] [ 63%] [32m[1mLinking CXX shared library libtest_controller_with_interfaces.so[0m
+[40.570s] [ 63%] Built target test_controller_with_interfaces
+[40.592s] [ 65%] [32mBuilding CXX object CMakeFiles/test_release_interfaces.dir/test/test_release_interfaces.cpp.o[0m
+[41.677s] [ 68%] [32m[1mLinking CXX executable ros2_control_node[0m
+[41.882s] [ 68%] Built target ros2_control_node
+[42.838s] [ 71%] [32m[1mLinking CXX executable test_hardware_spawner[0m
+[43.165s] [ 71%] Built target test_hardware_spawner
+[47.186s] [ 73%] [32m[1mLinking CXX shared library libtest_chainable_controller.so[0m
+[47.401s] [ 73%] Built target test_chainable_controller
+[47.423s] [ 76%] [32mBuilding CXX object CMakeFiles/test_controllers_chaining_with_controller_manager.dir/test/test_controllers_chaining_with_controller_manager.cpp.o[0m
+[47.435s] [ 78%] [32mBuilding CXX object CMakeFiles/test_controller_manager_srvs.dir/test/test_controller_manager_srvs.cpp.o[0m
+[47.731s] [ 81%] [32m[1mLinking CXX executable test_release_interfaces[0m
+[47.794s] [ 84%] [32m[1mLinking CXX executable test_controller_manager_with_namespace.cpp[0m
+[48.022s] [ 84%] Built target test_release_interfaces
+[48.072s] [ 84%] Built target test_controller_manager_with_namespace.cpp
+[49.428s] [ 86%] [32m[1mLinking CXX executable test_hardware_management_srvs[0m
+[49.690s] [ 86%] Built target test_hardware_management_srvs
+[50.465s] [ 89%] [32m[1mLinking CXX executable test_controller_manager[0m
+[50.715s] [ 89%] Built target test_controller_manager
+[50.843s] [ 92%] [32m[1mLinking CXX executable test_load_controller[0m
+[51.085s] [ 92%] Built target test_load_controller
+[54.206s] [ 94%] [32m[1mLinking CXX executable test_spawner_unspawner[0m
+[54.568s] [ 94%] Built target test_spawner_unspawner
+[55.031s] [ 97%] [32m[1mLinking CXX executable test_controllers_chaining_with_controller_manager[0m
+[55.384s] [ 97%] Built target test_controllers_chaining_with_controller_manager
+[61.739s] [100%] [32m[1mLinking CXX executable test_controller_manager_srvs[0m
+[61.924s] [100%] Built target test_controller_manager_srvs
+[61.931s] Invoked command in '/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface_testing:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_interface:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros2_control_test_assets:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager_msgs:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface_testing:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_interface:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros2_control_test_assets:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager_msgs:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface_testing/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_interface/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager_msgs/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/controller_manager -- -j20 -l20
+[61.932s] Invoking command in '/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface_testing:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_interface:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros2_control_test_assets:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager_msgs:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface_testing:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_interface:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros2_control_test_assets:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager_msgs:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface_testing/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_interface/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager_msgs/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/controller_manager
+[61.938s] -- Install configuration: "Release"
+[61.938s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/lib/libcontroller_manager.so
+[61.940s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/lib/libcontroller_manager.so" to ""
+[61.940s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/lib/controller_manager/ros2_control_node
+[61.940s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/lib/controller_manager/ros2_control_node" to ""
+[61.940s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/include
+[61.940s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/include/controller_manager
+[61.940s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/include/controller_manager/controller_spec.hpp
+[61.940s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/include/controller_manager/visibility_control.h
+[61.940s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/include/controller_manager/controller_manager.hpp
+[61.940s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/share/controller_manager/test/test_controller/test_controller.xml
+[61.940s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/lib/libtest_controller.so
+[61.941s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/lib/libtest_controller.so" to ""
+[61.941s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/share/controller_manager/test/test_controller_failed_init/test_controller_failed_init.xml
+[61.941s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/lib/libtest_controller_failed_init.so
+[61.941s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/lib/libtest_controller_failed_init.so" to ""
+[61.941s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/share/controller_manager/test/test_chainable_controller/test_chainable_controller.xml
+[61.941s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/lib/libtest_chainable_controller.so
+[61.941s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/lib/libtest_chainable_controller.so" to ""
+[61.942s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/share/controller_manager/test/test_controller_with_interfaces/test_controller_with_interfaces.xml
+[61.942s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/lib/libtest_controller_with_interfaces.so
+[61.942s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/lib/libtest_controller_with_interfaces.so" to ""
+[61.942s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/test/test_controller_spawner_with_type.yaml
+[61.942s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/test/test_controller_spawner_with_basic_controllers.yaml
+[61.942s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/test/test_controller_overriding_parameters.yaml
+[61.942s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/test/test_controller_spawner_wildcard_entries.yaml
+[61.942s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/test/test_controller_spawner_with_interfaces.yaml
+[61.942s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/test/test_ros2_control_node.yaml
+[61.942s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/share/controller_manager/environment/pythonpath.sh
+[61.942s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/share/controller_manager/environment/pythonpath.dsv
+[61.943s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.48.0-py3.10.egg-info
+[61.943s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.48.0-py3.10.egg-info/SOURCES.txt
+[61.943s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.48.0-py3.10.egg-info/PKG-INFO
+[61.943s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.48.0-py3.10.egg-info/entry_points.txt
+[61.943s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.48.0-py3.10.egg-info/top_level.txt
+[61.943s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.48.0-py3.10.egg-info/dependency_links.txt
+[61.943s] -- Up-to-date: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/lib/controller_manager/
+[61.943s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/lib/controller_manager//spawner
+[61.943s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/lib/controller_manager//unspawner
+[61.943s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/lib/controller_manager//hardware_spawner
+[61.943s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager
+[61.943s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/unspawner.py
+[61.943s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py
+[61.943s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/__init__.py
+[61.944s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/spawner.py
+[61.944s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/hardware_spawner.py
+[61.944s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/launch_utils.py
+[61.969s] Listing '/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager'...
+[61.969s] Compiling '/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/__init__.py'...
+[61.969s] Compiling '/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py'...
+[61.969s] Compiling '/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/hardware_spawner.py'...
+[61.969s] Compiling '/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/launch_utils.py'...
+[61.969s] Compiling '/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/spawner.py'...
+[61.969s] Compiling '/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/unspawner.py'...
+[61.972s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/share/controller_manager/environment/library_path.sh
+[61.972s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/share/controller_manager/environment/library_path.dsv
+[61.972s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/share/ament_index/resource_index/package_run_dependencies/controller_manager
+[61.972s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/share/ament_index/resource_index/parent_prefix_path/controller_manager
+[61.972s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.sh
+[61.972s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.dsv
+[61.972s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/share/controller_manager/environment/path.sh
+[61.972s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/share/controller_manager/environment/path.dsv
+[61.972s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/share/controller_manager/local_setup.bash
+[61.972s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/share/controller_manager/local_setup.sh
+[61.972s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/share/controller_manager/local_setup.zsh
+[61.972s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/share/controller_manager/local_setup.dsv
+[61.972s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/share/controller_manager/package.dsv
+[61.972s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/share/ament_index/resource_index/packages/controller_manager
+[61.972s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/share/ament_index/resource_index/controller_interface__pluginlib__plugin/controller_manager
+[61.972s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[61.972s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[61.973s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[61.973s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig.cmake
+[61.973s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig-version.cmake
+[61.973s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/share/controller_manager/package.xml
+[61.973s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager/include/controller_manager/controller_manager/version.h
+[61.975s] Invoked command in '/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface_testing:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_interface:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros2_control_test_assets:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager_msgs:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface_testing:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_interface:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros2_control_test_assets:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager_msgs:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface_testing/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_interface/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/hardware_interface/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager_msgs/lib:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/controller_manager

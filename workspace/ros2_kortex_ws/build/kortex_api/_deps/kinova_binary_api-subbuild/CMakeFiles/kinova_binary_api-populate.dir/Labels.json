@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/kortex_api/_deps/kinova_binary_api-subbuild/CMakeFiles/kinova_binary_api-populate"
+		},
+		{
+			"file" : "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/kortex_api/_deps/kinova_binary_api-subbuild/CMakeFiles/kinova_binary_api-populate.rule"
+		},
+		{
+			"file" : "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/kortex_api/_deps/kinova_binary_api-subbuild/CMakeFiles/kinova_binary_api-populate-complete.rule"
+		},
+		{
+			"file" : "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/kortex_api/_deps/kinova_binary_api-subbuild/kinova_binary_api-populate-prefix/src/kinova_binary_api-populate-stamp/kinova_binary_api-populate-build.rule"
+		},
+		{
+			"file" : "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/kortex_api/_deps/kinova_binary_api-subbuild/kinova_binary_api-populate-prefix/src/kinova_binary_api-populate-stamp/kinova_binary_api-populate-configure.rule"
+		},
+		{
+			"file" : "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/kortex_api/_deps/kinova_binary_api-subbuild/kinova_binary_api-populate-prefix/src/kinova_binary_api-populate-stamp/kinova_binary_api-populate-download.rule"
+		},
+		{
+			"file" : "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/kortex_api/_deps/kinova_binary_api-subbuild/kinova_binary_api-populate-prefix/src/kinova_binary_api-populate-stamp/kinova_binary_api-populate-install.rule"
+		},
+		{
+			"file" : "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/kortex_api/_deps/kinova_binary_api-subbuild/kinova_binary_api-populate-prefix/src/kinova_binary_api-populate-stamp/kinova_binary_api-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/kortex_api/_deps/kinova_binary_api-subbuild/kinova_binary_api-populate-prefix/src/kinova_binary_api-populate-stamp/kinova_binary_api-populate-patch.rule"
+		},
+		{
+			"file" : "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/kortex_api/_deps/kinova_binary_api-subbuild/kinova_binary_api-populate-prefix/src/kinova_binary_api-populate-stamp/kinova_binary_api-populate-test.rule"
+		},
+		{
+			"file" : "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/kortex_api/_deps/kinova_binary_api-subbuild/kinova_binary_api-populate-prefix/src/kinova_binary_api-populate-stamp/kinova_binary_api-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"kinova_binary_api-populate"
+		],
+		"name" : "kinova_binary_api-populate"
+	}
+}

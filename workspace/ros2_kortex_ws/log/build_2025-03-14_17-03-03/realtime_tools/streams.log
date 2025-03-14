@@ -1,0 +1,141 @@
+[0.007s] Invoking command in '/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/realtime_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/src/realtime_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools
+[0.013s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.113s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.131s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.132s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.136s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.142s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.149s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.169s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.170s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.181s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.211s] -- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.234s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[0.235s] -- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[0.240s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.245s] -- Found test_msgs: 1.2.1 (/opt/ros/humble/share/test_msgs/cmake)
+[0.256s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[0.284s] -- The C compiler identification is GNU 11.4.0
+[0.289s] -- Detecting C compiler ABI info
+[0.336s] -- Detecting C compiler ABI info - done
+[0.342s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.342s] -- Detecting C compile features
+[0.342s] -- Detecting C compile features - done
+[0.345s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.345s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.392s] -- Configuring done
+[0.422s] -- Generating done
+[0.436s] -- Build files have been written to: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/realtime_tools
+[0.442s] Invoked command in '/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/src/realtime_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools
+[0.442s] Invoking command in '/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/realtime_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/realtime_tools -- -j20 -l20
+[0.481s] [  3%] [32mBuilding CXX object CMakeFiles/thread_priority.dir/src/realtime_helpers.cpp.o[0m
+[0.482s] [  6%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[0.483s] [  9%] [32mBuilding CXX object CMakeFiles/realtime_tools.dir/src/realtime_clock.cpp.o[0m
+[0.483s] [ 12%] [32mBuilding CXX object CMakeFiles/realtime_tools.dir/src/realtime_helpers.cpp.o[0m
+[0.483s] [ 15%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[0.483s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.379s] [ 21%] [32m[1mLinking CXX shared library libthread_priority.so[0m
+[1.482s] [ 21%] Built target thread_priority
+[1.698s] [ 25%] [32m[1mLinking CXX shared library librealtime_tools.so[0m
+[1.782s] [ 25%] Built target realtime_tools
+[2.023s] [ 28%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[2.219s] [ 28%] Built target gmock_main
+[9.418s] [ 31%] [32m[1mLinking CXX static library libgmock.a[0m
+[9.509s] [ 31%] Built target gmock
+[9.548s] [ 34%] [32mBuilding CXX object CMakeFiles/thread_priority_tests.dir/test/thread_priority_tests.cpp.o[0m
+[9.554s] [ 37%] [32mBuilding CXX object CMakeFiles/lock_free_queue_tests.dir/test/lock_free_queue_tests.cpp.o[0m
+[9.555s] [ 40%] [32mBuilding CXX object CMakeFiles/realtime_box_tests.dir/test/realtime_box_tests.cpp.o[0m
+[9.564s] [ 43%] [32mBuilding CXX object CMakeFiles/realtime_box_best_effort_tests.dir/test/realtime_box_best_effort_tests.cpp.o[0m
+[9.572s] [ 46%] [32mBuilding CXX object CMakeFiles/realtime_buffer_tests.dir/test/realtime_buffer_tests.cpp.o[0m
+[9.572s] [ 50%] [32mBuilding CXX object CMakeFiles/realtime_clock_tests.dir/test/realtime_clock_tests.cpp.o[0m
+[9.572s] [ 53%] [32mBuilding CXX object CMakeFiles/test_async_function_handler.dir/test/test_async_function_handler.cpp.o[0m
+[9.572s] [ 56%] [32mBuilding CXX object CMakeFiles/realtime_publisher_tests.dir/test/realtime_publisher_tests.cpp.o[0m
+[9.581s] [ 59%] [32mBuilding CXX object CMakeFiles/realtime_publisher_tests_non_polling.dir/test/realtime_publisher_tests_non_polling.cpp.o[0m
+[9.586s] [ 62%] [32mBuilding CXX object CMakeFiles/realtime_server_goal_handle_tests.dir/test/realtime_server_goal_handle_tests.cpp.o[0m
+[9.586s] [ 65%] [32mBuilding CXX object CMakeFiles/realtime_mutex_tests.dir/test/realtime_mutex_tests.cpp.o[0m
+[11.405s] [ 68%] [32m[1mLinking CXX executable thread_priority_tests[0m
+[11.468s] [ 71%] [32m[1mLinking CXX executable realtime_box_best_effort_tests[0m
+[11.553s] [ 71%] Built target thread_priority_tests
+[11.574s] [ 71%] Built target realtime_box_best_effort_tests
+[11.667s] [01m[K/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/src/realtime_tools/test/realtime_publisher_tests.cpp:[m[K In member function ‘[01m[Kvirtual void RealtimePublisher_construct_destruct_Test::TestBody()[m[K’:
+[11.667s] [01m[K/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/src/realtime_tools/test/realtime_publisher_tests.cpp:45:76:[m[K [01;35m[Kwarning: [m[K‘[01m[Krealtime_tools::RealtimePublisher<MessageT>::RealtimePublisher() [with MessageT = test_msgs::msg::Strings_<std::allocator<void> >][m[K’ is deprecated: Use constructor with rclcpp::Publisher<T>::SharedPtr instead - this class does not make sense without a real publisher [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.667s]    45 | TEST(RealtimePublisher, construct_destruct) { RealtimePublisher<StringMsg> [01;35m[Krt_pub[m[K; }
+[11.667s]       |                                                                            [01;35m[K^~~~~~[m[K
+[11.667s] In file included from [01m[K/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/src/realtime_tools/test/realtime_publisher_tests.cpp:39[m[K:
+[11.667s] [01m[K/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/src/realtime_tools/include/realtime_tools/realtime_publisher.hpp:81:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.667s]    81 |   [01;36m[KRealtimePublisher[m[K()
+[11.667s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[11.780s] [ 75%] [32m[1mLinking CXX executable realtime_box_tests[0m
+[11.899s] [ 75%] Built target realtime_box_tests
+[12.024s] [ 78%] [32m[1mLinking CXX executable realtime_clock_tests[0m
+[12.122s] [ 78%] Built target realtime_clock_tests
+[12.130s] [ 81%] [32m[1mLinking CXX executable realtime_buffer_tests[0m
+[12.244s] [ 81%] Built target realtime_buffer_tests
+[12.626s] [01m[K/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/src/realtime_tools/test/realtime_publisher_tests_non_polling.cpp:[m[K In member function ‘[01m[Kvirtual void RealtimePublisherNonPolling_construct_destruct_Test::TestBody()[m[K’:
+[12.626s] [01m[K/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/src/realtime_tools/test/realtime_publisher_tests_non_polling.cpp:47:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Krealtime_tools::RealtimePublisher<MessageT>::RealtimePublisher() [with MessageT = test_msgs::msg::Strings_<std::allocator<void> >][m[K’ is deprecated: Use constructor with rclcpp::Publisher<T>::SharedPtr instead - this class does not make sense without a real publisher [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[12.626s]    47 | TEST(RealtimePublisherNonPolling, construct_destruct) { RealtimePublisher<StringMsg> [01;35m[Krt_pub[m[K; }
+[12.626s]       |                                                                                      [01;35m[K^~~~~~[m[K
+[12.626s] In file included from [01m[K/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/src/realtime_tools/test/realtime_publisher_tests_non_polling.cpp:41[m[K:
+[12.626s] [01m[K/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/src/realtime_tools/include/realtime_tools/realtime_publisher.hpp:81:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.626s]    81 |   [01;36m[KRealtimePublisher[m[K()
+[12.626s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[13.477s] [ 84%] [32m[1mLinking CXX executable realtime_mutex_tests[0m
+[13.582s] [ 84%] Built target realtime_mutex_tests
+[15.364s] [ 87%] [32m[1mLinking CXX executable lock_free_queue_tests[0m
+[15.411s] [ 90%] [32m[1mLinking CXX executable realtime_server_goal_handle_tests[0m
+[15.489s] [ 93%] [32m[1mLinking CXX executable test_async_function_handler[0m
+[15.494s] [ 93%] Built target lock_free_queue_tests
+[15.527s] [ 93%] Built target realtime_server_goal_handle_tests
+[15.616s] [ 93%] Built target test_async_function_handler
+[20.132s] [ 96%] [32m[1mLinking CXX executable realtime_publisher_tests[0m
+[20.239s] [ 96%] Built target realtime_publisher_tests
+[21.391s] [100%] [32m[1mLinking CXX executable realtime_publisher_tests_non_polling[0m
+[21.527s] [100%] Built target realtime_publisher_tests_non_polling
+[21.540s] Invoked command in '/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/realtime_tools -- -j20 -l20
+[21.541s] Invoking command in '/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/realtime_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/realtime_tools
+[21.549s] -- Install configuration: "Release"
+[21.550s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/include/realtime_tools
+[21.550s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/include/realtime_tools/realtime_tools
+[21.550s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_buffer.hpp
+[21.550s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_clock.h
+[21.550s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/include/realtime_tools/realtime_tools/mutex.hpp
+[21.550s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_buffer.h
+[21.551s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_box_best_effort.hpp
+[21.551s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_clock.hpp
+[21.551s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/include/realtime_tools/realtime_tools/async_function_handler.hpp
+[21.551s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_server_goal_handle.h
+[21.551s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_helpers.hpp
+[21.551s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_box.hpp
+[21.551s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_box_best_effort.h
+[21.551s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/include/realtime_tools/realtime_tools/thread_priority.hpp
+[21.551s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_publisher.h
+[21.551s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_publisher.hpp
+[21.552s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/include/realtime_tools/realtime_tools/lock_free_queue.hpp
+[21.552s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_box.h
+[21.552s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_server_goal_handle.hpp
+[21.552s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/lib/librealtime_tools.so
+[21.552s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/lib/librealtime_tools.so" to ""
+[21.552s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/lib/libthread_priority.so
+[21.552s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/lib/libthread_priority.so" to ""
+[21.553s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/share/realtime_tools/environment/library_path.sh
+[21.553s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/share/realtime_tools/environment/library_path.dsv
+[21.553s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/share/ament_index/resource_index/package_run_dependencies/realtime_tools
+[21.553s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/share/ament_index/resource_index/parent_prefix_path/realtime_tools
+[21.553s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/share/realtime_tools/environment/ament_prefix_path.sh
+[21.553s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/share/realtime_tools/environment/ament_prefix_path.dsv
+[21.553s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/share/realtime_tools/environment/path.sh
+[21.554s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/share/realtime_tools/environment/path.dsv
+[21.554s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/share/realtime_tools/local_setup.bash
+[21.554s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/share/realtime_tools/local_setup.sh
+[21.554s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/share/realtime_tools/local_setup.zsh
+[21.554s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/share/realtime_tools/local_setup.dsv
+[21.554s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/share/realtime_tools/package.dsv
+[21.555s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/share/ament_index/resource_index/packages/realtime_tools
+[21.555s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/share/realtime_tools/cmake/export_realtime_toolsExport.cmake
+[21.555s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/share/realtime_tools/cmake/export_realtime_toolsExport-release.cmake
+[21.555s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_targets-extras.cmake
+[21.555s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.555s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/share/realtime_tools/cmake/realtime_toolsConfig.cmake
+[21.555s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/share/realtime_tools/cmake/realtime_toolsConfig-version.cmake
+[21.556s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/realtime_tools/share/realtime_tools/package.xml
+[21.558s] Invoked command in '/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/realtime_tools

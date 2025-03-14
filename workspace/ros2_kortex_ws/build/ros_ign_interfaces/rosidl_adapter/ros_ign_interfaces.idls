@@ -1,0 +1,16 @@
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/ros_ign_interfaces/rosidl_adapter/ros_ign_interfaces:msg/Contact.idl
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/ros_ign_interfaces/rosidl_adapter/ros_ign_interfaces:msg/Contacts.idl
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/ros_ign_interfaces/rosidl_adapter/ros_ign_interfaces:msg/Entity.idl
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/ros_ign_interfaces/rosidl_adapter/ros_ign_interfaces:msg/EntityFactory.idl
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/ros_ign_interfaces/rosidl_adapter/ros_ign_interfaces:msg/GuiCamera.idl
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/ros_ign_interfaces/rosidl_adapter/ros_ign_interfaces:msg/JointWrench.idl
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/ros_ign_interfaces/rosidl_adapter/ros_ign_interfaces:msg/Light.idl
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/ros_ign_interfaces/rosidl_adapter/ros_ign_interfaces:msg/StringVec.idl
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/ros_ign_interfaces/rosidl_adapter/ros_ign_interfaces:msg/TrackVisual.idl
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/ros_ign_interfaces/rosidl_adapter/ros_ign_interfaces:msg/VideoRecord.idl
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/ros_ign_interfaces/rosidl_adapter/ros_ign_interfaces:msg/WorldControl.idl
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/ros_ign_interfaces/rosidl_adapter/ros_ign_interfaces:msg/WorldReset.idl
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/ros_ign_interfaces/rosidl_adapter/ros_ign_interfaces:srv/ControlWorld.idl
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/ros_ign_interfaces/rosidl_adapter/ros_ign_interfaces:srv/DeleteEntity.idl
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/ros_ign_interfaces/rosidl_adapter/ros_ign_interfaces:srv/SetEntityPose.idl
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/ros_ign_interfaces/rosidl_adapter/ros_ign_interfaces:srv/SpawnEntity.idl

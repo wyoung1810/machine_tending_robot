@@ -1,0 +1,17 @@
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_ign_image/lib/ros_ign_image/image_bridge
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_ign_image/share/ament_index/resource_index/package_run_dependencies/ros_ign_image
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_ign_image/share/ament_index/resource_index/parent_prefix_path/ros_ign_image
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_ign_image/share/ros_ign_image/environment/ament_prefix_path.sh
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_ign_image/share/ros_ign_image/environment/ament_prefix_path.dsv
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_ign_image/share/ros_ign_image/environment/path.sh
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_ign_image/share/ros_ign_image/environment/path.dsv
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_ign_image/share/ros_ign_image/local_setup.bash
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_ign_image/share/ros_ign_image/local_setup.sh
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_ign_image/share/ros_ign_image/local_setup.zsh
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_ign_image/share/ros_ign_image/local_setup.dsv
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_ign_image/share/ros_ign_image/package.dsv
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_ign_image/share/ament_index/resource_index/packages/ros_ign_image
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_ign_image/share/ros_ign_image/cmake/ament_cmake_export_dependencies-extras.cmake
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_ign_image/share/ros_ign_image/cmake/ros_ign_imageConfig.cmake
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_ign_image/share/ros_ign_image/cmake/ros_ign_imageConfig-version.cmake
+/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_ign_image/share/ros_ign_image/package.xml

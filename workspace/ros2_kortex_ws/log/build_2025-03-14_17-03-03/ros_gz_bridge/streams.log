@@ -1,0 +1,276 @@
+[0.008s] Invoking command in '/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/ros_gz_bridge': AMENT_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/src/ros_gz/ros_gz_bridge -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.100s] -- The CXX compiler identification is GNU 11.4.0
+[0.107s] -- Detecting C compiler ABI info
+[0.162s] -- Detecting C compiler ABI info - done
+[0.170s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.170s] -- Detecting C compile features
+[0.170s] -- Detecting C compile features - done
+[0.173s] -- Detecting CXX compiler ABI info
+[0.238s] -- Detecting CXX compiler ABI info - done
+[0.246s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.246s] -- Detecting CXX compile features
+[0.247s] -- Detecting CXX compile features - done
+[0.249s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.378s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.440s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.468s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.471s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.476s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.484s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.494s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.521s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.523s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.536s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.541s] -- Looking for pthread.h
+[0.595s] -- Looking for pthread.h - found
+[0.596s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.650s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.651s] -- Found Threads: TRUE  
+[0.686s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.707s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[0.710s] -- Looking for ignition-transport11 -- found version 11.4.1
+[0.716s] -- Searching for dependencies of ignition-transport11
+[0.732s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.743s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.748s] -- Checking for module 'libzmq >= 4'
+[0.759s] --   Found libzmq , version 4.3.4
+[0.787s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[0.793s] -- Checking for module 'uuid'
+[0.803s] --   Found uuid, version 2.37.2
+[0.827s] -- Found UUID: TRUE  
+[0.828s] -- Looking for ignition-utils1 -- found version 1.5.1
+[0.829s] -- Searching for dependencies of ignition-utils1
+[0.829s] -- Searching for <ignition-utils1> component [cli]
+[0.830s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[0.830s] -- Searching for dependencies of ignition-utils1-cli
+[0.832s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[0.832s] -- Searching for dependencies of ignition-msgs8
+[0.845s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.848s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.849s] -- Searching for dependencies of ignition-math6
+[0.853s] -- Checking for module 'tinyxml2'
+[0.863s] --   Found tinyxml2, version 9.0.0
+[0.888s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[0.888s] -- Compiling against Ignition Fortress
+[0.888s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.897s] -- Found actuator_msgs: 0.0.1 (/opt/ros/humble/share/actuator_msgs/cmake)
+[0.905s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.913s] -- Found gps_msgs: 2.0.4 (/opt/ros/humble/share/gps_msgs/cmake)
+[0.926s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.927s] -- Found rcl_interfaces: 1.2.1 (/opt/ros/humble/share/rcl_interfaces/cmake)
+[0.938s] -- Found ros_gz_interfaces: 0.244.16 (/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake)
+[0.938s] -- Found rosgraph_msgs: 1.2.1 (/opt/ros/humble/share/rosgraph_msgs/cmake)
+[0.949s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.949s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.978s] -- Found tf2_msgs: 0.25.12 (/opt/ros/humble/share/tf2_msgs/cmake)
+[0.989s] -- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[0.999s] -- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)
+[1.067s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.140s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.158s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.161s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.161s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.162s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.162s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.176s] -- Found PythonExtra: .so  
+[1.192s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.209s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.211s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.212s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/src/ros_gz/ros_gz_bridge/include>;$<BUILD_INTERFACE:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/src/ros_gz/ros_gz_bridge/src>;/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/src/ros_gz/ros_gz_bridge/include;/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/src/ros_gz/ros_gz_bridge/test;/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/src/ros_gz/ros_gz_bridge/test/subscribers;/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/src/ros_gz/ros_gz_bridge/src
+[1.212s] -- Configured cppcheck exclude dirs and/or files: 
+[1.214s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.214s] -- Configured cpplint exclude dirs and/or files: 
+[1.215s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.215s] -- Added test 'lint_cmake' to check CMake code style
+[1.216s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.218s] -- Added test 'uncrustify' to check C / C++ code style
+[1.218s] -- Configured uncrustify additional arguments: 
+[1.218s] -- Added test 'xmllint' to check XML markup files
+[1.220s] -- Configuring done
+[1.287s] -- Generating done
+[1.311s] -- Build files have been written to: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/ros_gz_bridge
+[1.320s] Invoked command in '/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/ros_gz_bridge' returned '0': AMENT_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/src/ros_gz/ros_gz_bridge -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge
+[1.321s] Invoking command in '/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/ros_gz_bridge': AMENT_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/ros_gz_bridge -- -j20 -l20
+[1.355s] [  1%] [34m[1mGenerating factories for interface types[0m
+[1.364s] [  3%] [32mBuilding CXX object CMakeFiles/bridge_node.dir/rclcpp_components/node_main_bridge_node.cpp.o[0m
+[1.364s] [  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.364s] [  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.470s] [  7%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/service_factories/ros_gz_interfaces.cpp.o[0m
+[1.470s] [  7%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/service_factory_interface.cpp.o[0m
+[1.470s] [  7%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/ros_gz_bridge.cpp.o[0m
+[1.470s] [  9%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/bridge_handle.cpp.o[0m
+[1.470s] [ 10%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/utils.cpp.o[0m
+[1.470s] [ 10%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/bridge_handle_ros_to_gz.cpp.o[0m
+[1.470s] [ 13%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/gps_msgs.cpp.o[0m
+[1.470s] [ 13%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/bridge_handle_gz_to_ros.cpp.o[0m
+[1.470s] [ 15%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/factory_interface.cpp.o[0m
+[1.470s] [ 15%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/geometry_msgs.cpp.o[0m
+[1.471s] [ 16%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/actuator_msgs.cpp.o[0m
+[1.471s] [ 17%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/bridge_config.cpp.o[0m
+[1.474s] [ 19%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/builtin_interfaces.cpp.o[0m
+[1.474s] [ 19%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/nav_msgs.cpp.o[0m
+[1.477s] [ 20%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/rcl_interfaces.cpp.o[0m
+[1.477s] [ 21%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/rosgraph_msgs.cpp.o[0m
+[1.478s] [ 23%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/ros_gz_interfaces.cpp.o[0m
+[1.836s] [ 24%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/sensor_msgs.cpp.o[0m
+[2.410s] [ 25%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.480s] [ 25%] Built target gtest_main
+[2.496s] [ 26%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/std_msgs.cpp.o[0m
+[2.866s] [ 27%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/tf2_msgs.cpp.o[0m
+[3.174s] [ 28%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/trajectory_msgs.cpp.o[0m
+[3.183s] [ 29%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/vision_msgs.cpp.o[0m
+[3.509s] [ 30%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/get_factory.cpp.o[0m
+[3.592s] [ 31%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/get_mappings.cpp.o[0m
+[3.641s] [ 32%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/builtin_interfaces.cpp.o[0m
+[4.245s] [ 34%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/actuator_msgs.cpp.o[0m
+[4.354s] [ 35%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/geometry_msgs.cpp.o[0m
+[4.766s] [ 36%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/gps_msgs.cpp.o[0m
+[5.112s] [ 37%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/nav_msgs.cpp.o[0m
+[5.177s] [ 38%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/rcl_interfaces.cpp.o[0m
+[5.580s] [ 39%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/ros_gz_interfaces.cpp.o[0m
+[6.355s] [ 40%] [32m[1mLinking CXX executable bridge_node[0m
+[6.551s] [ 40%] Built target bridge_node
+[6.570s] [ 41%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/rosgraph_msgs.cpp.o[0m
+[8.423s] [ 42%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/sensor_msgs.cpp.o[0m
+[13.592s] [ 43%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/std_msgs.cpp.o[0m
+[15.873s] [01m[K/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/src/ros_gz/ros_gz_bridge/src/ros_gz_bridge.cpp:[m[K In member function ‘[01m[Kvoid ros_gz_bridge::RosGzBridge::spin()[m[K’:
+[15.873s] [01m[K/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/src/ros_gz/ros_gz_bridge/src/ros_gz_bridge.cpp:49:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kexpand_names[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[15.874s]    49 |     bool [01;35m[Kexpand_names[m[K;
+[15.875s]       |          [01;35m[K^~~~~~~~~~~~[m[K
+[18.897s] [ 45%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/tf2_msgs.cpp.o[0m
+[20.081s] [ 46%] [32m[1mLinking CXX static library libgtest.a[0m
+[20.258s] [ 46%] Built target gtest
+[20.310s] [ 47%] [32mBuilding CXX object CMakeFiles/test_rcl_interfaces.dir/src/convert/rcl_interfaces.cpp.o[0m
+[20.439s] [ 48%] [32mBuilding CXX object CMakeFiles/test_rcl_interfaces.dir/src/convert/rcl_interfaces_TEST.cpp.o[0m
+[20.970s] [ 49%] [32mBuilding CXX object CMakeFiles/test_utils.dir/test/utils/gz_test_msg.cpp.o[0m
+[22.550s] [ 50%] [32mBuilding CXX object CMakeFiles/test_utils.dir/test/utils/ros_test_msg.cpp.o[0m
+[23.382s] [ 51%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/trajectory_msgs.cpp.o[0m
+[23.532s] [ 52%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/vision_msgs.cpp.o[0m
+[25.754s] [ 53%] [32m[1mLinking CXX executable test_rcl_interfaces[0m
+[25.984s] [ 53%] Built target test_rcl_interfaces
+[50.070s] [ 54%] [32m[1mLinking CXX static library libtest_utils.a[0m
+[50.140s] [ 54%] Built target test_utils
+[50.153s] [ 56%] [34m[1mGenerating test helpers[0m
+[50.153s] [ 58%] [34m[1mGenerating test helpers[0m
+[50.154s] [ 58%] [34m[1mGenerating test helpers[0m
+[50.154s] [ 59%] [34m[1mGenerating test helpers[0m
+[50.164s] [ 60%] [32mBuilding CXX object CMakeFiles/test_gz_server.dir/test/serverclient/gz_server.cpp.o[0m
+[50.165s] [ 61%] [32mBuilding CXX object CMakeFiles/test_ros_client.dir/test/serverclient/ros_client.cpp.o[0m
+[50.412s] [ 62%] [32mBuilding CXX object CMakeFiles/test_gz_subscriber.dir/generated/test/gz_subscriber.cpp.o[0m
+[50.421s] [ 63%] [32mBuilding CXX object CMakeFiles/test_gz_publisher.dir/generated/test/gz_publisher.cpp.o[0m
+[50.437s] [ 64%] [32mBuilding CXX object CMakeFiles/test_ros_publisher.dir/generated/test/ros_publisher.cpp.o[0m
+[50.471s] [ 67%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/gps_msgs_subscriber.cpp.o[0m
+[50.471s] [ 67%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/actuator_msgs_subscriber.cpp.o[0m
+[50.471s] [ 68%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/geometry_msgs_subscriber.cpp.o[0m
+[50.471s] [ 69%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/test/subscribers/ros_subscriber.cpp.o[0m
+[50.471s] [ 70%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/builtin_interfaces_subscriber.cpp.o[0m
+[50.482s] [ 71%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/nav_msgs_subscriber.cpp.o[0m
+[50.482s] [ 72%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/ros_gz_interfaces_subscriber.cpp.o[0m
+[50.491s] [ 73%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/rcl_interfaces_subscriber.cpp.o[0m
+[54.356s] [ 74%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/rosgraph_msgs_subscriber.cpp.o[0m
+[56.007s] [ 75%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/sensor_msgs_subscriber.cpp.o[0m
+[58.434s] [ 76%] [32m[1mLinking CXX executable test_ros_client[0m
+[58.862s] [ 76%] Built target test_ros_client
+[58.875s] [ 78%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/std_msgs_subscriber.cpp.o[0m
+[72.961s] [ 79%] [32m[1mLinking CXX executable test_gz_publisher[0m
+[74.193s] [ 79%] Built target test_gz_publisher
+[74.220s] [ 80%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/tf2_msgs_subscriber.cpp.o[0m
+[77.673s] [ 81%] [32m[1mLinking CXX executable test_gz_server[0m
+[78.663s] [ 81%] Built target test_gz_server
+[78.689s] [ 82%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/trajectory_msgs_subscriber.cpp.o[0m
+[83.536s] [ 83%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/vision_msgs_subscriber.cpp.o[0m
+[114.562s] [ 84%] [32m[1mLinking CXX executable test_gz_subscriber[0m
+[115.222s] [ 84%] Built target test_gz_subscriber
+[138.216s] [ 85%] [32m[1mLinking CXX executable test_ros_publisher[0m
+[138.618s] [ 85%] Built target test_ros_publisher
+[144.077s] [ 86%] [32m[1mLinking CXX shared library libros_gz_bridge.so[0m
+[146.671s] [ 86%] Built target ros_gz_bridge
+[146.689s] [ 89%] [32mBuilding CXX object CMakeFiles/parameter_bridge.dir/src/parameter_bridge.cpp.o[0m
+[146.689s] [ 89%] [32mBuilding CXX object CMakeFiles/static_bridge.dir/src/static_bridge.cpp.o[0m
+[146.693s] [ 90%] [32mBuilding CXX object CMakeFiles/test_ros_gz_interfaces.dir/src/convert/ros_gz_interfaces.cpp.o[0m
+[146.694s] [ 91%] [32mBuilding CXX object CMakeFiles/bridge_types.dir/src/bridge_types.cpp.o[0m
+[146.694s] [ 93%] [32mBuilding CXX object CMakeFiles/test_ros_gz_interfaces.dir/src/convert/ros_gz_interfaces_TEST.cpp.o[0m
+[146.694s] [ 93%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_bridge_config.dir/test/bridge_config.cpp.o[0m
+[147.318s] [ 94%] [32m[1mLinking CXX executable bridge_types[0m
+[148.126s] [ 94%] Built target bridge_types
+[149.338s] [ 95%] [32m[1mLinking CXX executable ros_gz_bridge_bridge_config[0m
+[151.001s] [ 95%] Built target ros_gz_bridge_bridge_config
+[156.072s] [ 96%] [32m[1mLinking CXX executable static_bridge[0m
+[156.949s] [ 96%] Built target static_bridge
+[159.677s] [ 97%] [32m[1mLinking CXX executable test_ros_subscriber[0m
+[161.303s] [ 98%] [32m[1mLinking CXX executable parameter_bridge[0m
+[162.030s] [ 98%] Built target test_ros_subscriber
+[162.221s] [ 98%] Built target parameter_bridge
+[163.597s] [100%] [32m[1mLinking CXX executable test_ros_gz_interfaces[0m
+[165.661s] [100%] Built target test_ros_gz_interfaces
+[165.677s] Invoked command in '/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/ros_gz_bridge' returned '0': AMENT_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/ros_gz_bridge -- -j20 -l20
+[165.680s] Invoking command in '/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/ros_gz_bridge': AMENT_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/ros_gz_bridge
+[165.689s] -- Install configuration: "Release"
+[165.690s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib/ros_gz_bridge/bridge_node
+[165.690s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib/ros_gz_bridge/bridge_node" to ""
+[165.690s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib/libros_gz_bridge.so
+[165.735s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib/libros_gz_bridge.so" to ""
+[165.736s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/include/ros_gz_bridge
+[165.736s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge
+[165.737s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/ros_gz_bridge.hpp
+[165.737s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/bridge_config.hpp
+[165.737s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert.hpp
+[165.737s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert
+[165.737s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/gps_msgs.hpp
+[165.738s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/vision_msgs.hpp
+[165.738s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/tf2_msgs.hpp
+[165.738s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/ros_gz_interfaces.hpp
+[165.738s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/rosgraph_msgs.hpp
+[165.738s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/std_msgs.hpp
+[165.739s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/geometry_msgs.hpp
+[165.739s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/builtin_interfaces.hpp
+[165.739s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/actuator_msgs.hpp
+[165.739s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/rcl_interfaces.hpp
+[165.740s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/trajectory_msgs.hpp
+[165.740s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/nav_msgs.hpp
+[165.740s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/sensor_msgs.hpp
+[165.740s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert_decl.hpp
+[165.740s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib/ros_gz_bridge/parameter_bridge
+[165.741s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib/ros_gz_bridge/parameter_bridge" to ""
+[165.741s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib/ros_gz_bridge/static_bridge
+[165.742s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib/ros_gz_bridge/static_bridge" to ""
+[165.742s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib/ros_gz_bridge/bridge_types
+[165.743s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib/ros_gz_bridge/bridge_types" to ""
+[165.743s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib/ros_gz_bridge/test_ros_publisher
+[165.748s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib/ros_gz_bridge/test_ros_publisher" to ""
+[165.748s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib/ros_gz_bridge/test_ros_subscriber
+[165.773s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib/ros_gz_bridge/test_ros_subscriber" to ""
+[165.773s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib/ros_gz_bridge/test_gz_publisher
+[165.774s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib/ros_gz_bridge/test_gz_publisher" to ""
+[165.775s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib/ros_gz_bridge/test_gz_subscriber
+[165.777s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib/ros_gz_bridge/test_gz_subscriber" to ""
+[165.777s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib/ros_gz_bridge/test_gz_server
+[165.778s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib/ros_gz_bridge/test_gz_server" to ""
+[165.778s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib/ros_gz_bridge/test_ros_client
+[165.779s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib/ros_gz_bridge/test_ros_client" to ""
+[165.779s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/share/ros_gz_bridge/environment/library_path.sh
+[165.780s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/share/ros_gz_bridge/environment/library_path.dsv
+[165.781s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/share/ament_index/resource_index/package_run_dependencies/ros_gz_bridge
+[165.781s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/share/ament_index/resource_index/parent_prefix_path/ros_gz_bridge
+[165.782s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/share/ros_gz_bridge/environment/ament_prefix_path.sh
+[165.782s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/share/ros_gz_bridge/environment/ament_prefix_path.dsv
+[165.782s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/share/ros_gz_bridge/environment/path.sh
+[165.782s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/share/ros_gz_bridge/environment/path.dsv
+[165.782s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/share/ros_gz_bridge/local_setup.bash
+[165.782s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/share/ros_gz_bridge/local_setup.sh
+[165.783s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/share/ros_gz_bridge/local_setup.zsh
+[165.783s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/share/ros_gz_bridge/local_setup.dsv
+[165.783s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/share/ros_gz_bridge/package.dsv
+[165.783s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/share/ament_index/resource_index/packages/ros_gz_bridge
+[165.784s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/share/ament_index/resource_index/rclcpp_components/ros_gz_bridge
+[165.784s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/share/ros_gz_bridge/cmake/export_ros_gz_bridgeExport.cmake
+[165.784s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/share/ros_gz_bridge/cmake/export_ros_gz_bridgeExport-release.cmake
+[165.785s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ament_cmake_export_include_directories-extras.cmake
+[165.785s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+[165.785s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[165.785s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[165.786s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ros_gz_bridgeConfig.cmake
+[165.786s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ros_gz_bridgeConfig-version.cmake
+[165.786s] -- Installing: /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_bridge/share/ros_gz_bridge/package.xml
+[165.790s] Invoked command in '/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/ros_gz_bridge' returned '0': AMENT_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/build/ros_gz_bridge
