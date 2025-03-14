@@ -1,0 +1,4 @@
+#!/bin/bash
+halcmd setp hm2_7i92.0.gpio.018.is_output true 
+halcmd setp hm2_7i92.0.gpio.018.out false
+exit 0
