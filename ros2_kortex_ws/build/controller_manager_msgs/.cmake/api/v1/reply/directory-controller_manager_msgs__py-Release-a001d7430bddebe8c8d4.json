@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "controller_manager_msgs__py",
+		"source" : "/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/controller_manager_msgs/controller_manager_msgs__py"
+	}
+}

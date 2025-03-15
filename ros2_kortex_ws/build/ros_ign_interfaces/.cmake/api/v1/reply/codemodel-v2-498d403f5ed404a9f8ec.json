@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-121c86113dbc6b4ba801.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "ros_ign_interfaces__py",
+					"jsonFile" : "directory-ros_ign_interfaces__py-Release-cdee7ebaa0daa5bc7382.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_ign_interfaces/ros_ign_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ros_ign_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ros_ign_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ros_ign_interfaces_egg-Release-8740dab54c629c2f01d8.json",
+					"name" : "ament_cmake_python_build_ros_ign_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ros_ign_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ros_ign_interfaces-Release-c32a274aa80ce5a3a067.json",
+					"name" : "ament_cmake_python_copy_ros_ign_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces-Release-d0bd4001e81bcda50e46.json",
+					"name" : "ros_ign_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces__cpp-Release-231c90100d41ac9878b2.json",
+					"name" : "ros_ign_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ros_ign_interfaces__py::@da2dd3b3f7f60beeaec9",
+					"jsonFile" : "target-ros_ign_interfaces__py-Release-e6cf6fec2a0d0009caa5.json",
+					"name" : "ros_ign_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces__rosidl_generator_c-Release-76cc2f7d1332e555fc44.json",
+					"name" : "ros_ign_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces__rosidl_generator_py-Release-ea738d0e0679a2e4e717.json",
+					"name" : "ros_ign_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces__rosidl_typesupport_c-Release-80c494cf2e4619427ab8.json",
+					"name" : "ros_ign_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces__rosidl_typesupport_c__pyext-Release-0919a1fae1417230c25d.json",
+					"name" : "ros_ign_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces__rosidl_typesupport_cpp-Release-efab05cbd8900f8ba6e6.json",
+					"name" : "ros_ign_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces__rosidl_typesupport_fastrtps_c-Release-0d06b877f425c15ef837.json",
+					"name" : "ros_ign_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces__rosidl_typesupport_fastrtps_c__pyext-Release-3354d3c725718f356f70.json",
+					"name" : "ros_ign_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces__rosidl_typesupport_fastrtps_cpp-Release-a0850274e478f1097af2.json",
+					"name" : "ros_ign_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces__rosidl_typesupport_introspection_c-Release-97d1d14d149603ed4679.json",
+					"name" : "ros_ign_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces__rosidl_typesupport_introspection_c__pyext-Release-513f7026c51132c72fc2.json",
+					"name" : "ros_ign_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces__rosidl_typesupport_introspection_cpp-Release-c0ad55c21488e759c199.json",
+					"name" : "ros_ign_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_ign_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_ign_interfaces_uninstall-Release-f2c52e52bf10cc30f0e6.json",
+					"name" : "ros_ign_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-6ddb4998c4690d83a057.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_ign_interfaces",
+		"source" : "/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros_gz/ros_ign_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

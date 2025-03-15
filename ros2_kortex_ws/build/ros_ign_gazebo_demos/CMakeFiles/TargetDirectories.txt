@@ -1,0 +1,9 @@
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_ign_gazebo_demos/CMakeFiles/uninstall.dir
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_ign_gazebo_demos/CMakeFiles/ros_ign_gazebo_demos_uninstall.dir
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_ign_gazebo_demos/CMakeFiles/test.dir
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_ign_gazebo_demos/CMakeFiles/edit_cache.dir
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_ign_gazebo_demos/CMakeFiles/rebuild_cache.dir
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_ign_gazebo_demos/CMakeFiles/list_install_components.dir
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_ign_gazebo_demos/CMakeFiles/install.dir
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_ign_gazebo_demos/CMakeFiles/install/local.dir
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_ign_gazebo_demos/CMakeFiles/install/strip.dir

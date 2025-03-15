@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-3e6816043fe36078018f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "control_msgs__py",
+					"jsonFile" : "directory-control_msgs__py-Release-d3b3e0b23dbb972405ce.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/control_msgs/control_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "control_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_control_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_control_msgs_egg-Release-55c28da490b013eae48f.json",
+					"name" : "ament_cmake_python_build_control_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_control_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_control_msgs-Release-c5e4875d53909757d876.json",
+					"name" : "ament_cmake_python_copy_control_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_msgs-Release-db98cae675c26a2e72dc.json",
+					"name" : "control_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_msgs__cpp-Release-102bd4140ecb60a8440c.json",
+					"name" : "control_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "control_msgs__py::@4dabe78fbe0828f8fc42",
+					"jsonFile" : "target-control_msgs__py-Release-d2177b820cce343fc461.json",
+					"name" : "control_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_msgs__rosidl_generator_c-Release-293a09deae70f6f19f58.json",
+					"name" : "control_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_msgs__rosidl_generator_py-Release-e524514314c0180c9927.json",
+					"name" : "control_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_msgs__rosidl_typesupport_c-Release-d066bb8f85051b56f1f9.json",
+					"name" : "control_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_msgs__rosidl_typesupport_c__pyext-Release-d734cc02941a295a5156.json",
+					"name" : "control_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_msgs__rosidl_typesupport_cpp-Release-40896922bdf0ec5851aa.json",
+					"name" : "control_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_msgs__rosidl_typesupport_fastrtps_c-Release-775063b66c6c3fc3af66.json",
+					"name" : "control_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_msgs__rosidl_typesupport_fastrtps_c__pyext-Release-07006e6d293cdf77e04f.json",
+					"name" : "control_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_msgs__rosidl_typesupport_fastrtps_cpp-Release-ebea48466063a06b1938.json",
+					"name" : "control_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_msgs__rosidl_typesupport_introspection_c-Release-4d37d3bb68ec596098aa.json",
+					"name" : "control_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_msgs__rosidl_typesupport_introspection_c__pyext-Release-d6d7f25023a63b177e47.json",
+					"name" : "control_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_msgs__rosidl_typesupport_introspection_cpp-Release-758c72dbef3cccd0f87a.json",
+					"name" : "control_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_msgs_uninstall-Release-ec3346659c49218df015.json",
+					"name" : "control_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-5168c35daa10b136431d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/control_msgs",
+		"source" : "/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/control_msgs/control_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

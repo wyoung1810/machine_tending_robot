@@ -1,0 +1,307 @@
+[0.061s] Invoking command in '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/rqt_controller_manager:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros2controlcli:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros_gz/ros_gz_sim -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim
+[0.266s] -- The C compiler identification is GNU 11.4.0
+[0.455s] -- The CXX compiler identification is GNU 11.4.0
+[0.479s] -- Detecting C compiler ABI info
+[0.734s] -- Detecting C compiler ABI info - done
+[0.767s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.768s] -- Detecting C compile features
+[0.769s] -- Detecting C compile features - done
+[0.786s] -- Detecting CXX compiler ABI info
+[1.059s] -- Detecting CXX compiler ABI info - done
+[1.083s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.083s] -- Detecting CXX compile features
+[1.084s] -- Detecting CXX compile features - done
+[1.095s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.717s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.225s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[2.699s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.738s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.790s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.890s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.033s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.327s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.356s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.845s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.009s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.338s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.380s] -- Looking for pthread.h
+[4.512s] -- Looking for pthread.h - found
+[4.513s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.740s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.740s] -- Found Threads: TRUE  
+[5.002s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.035s] -- Searching for dependencies of ignition-math6
+[5.043s] -- Looking for ignition-transport11 -- found version 11.4.1
+[5.048s] -- Searching for dependencies of ignition-transport11
+[5.267s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[5.379s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[5.387s] -- Checking for module 'libzmq >= 4'
+[5.415s] --   Found libzmq , version 4.3.4
+[5.565s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[5.593s] -- Checking for module 'uuid'
+[5.636s] --   Found uuid, version 2.37.2
+[5.765s] -- Found UUID: TRUE  
+[5.769s] -- Looking for ignition-utils1 -- found version 1.5.1
+[5.771s] -- Searching for dependencies of ignition-utils1
+[5.777s] -- Searching for <ignition-utils1> component [cli]
+[5.779s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[5.789s] -- Searching for dependencies of ignition-utils1-cli
+[5.794s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[5.797s] -- Searching for dependencies of ignition-msgs8
+[5.853s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[5.856s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.880s] -- Checking for module 'tinyxml2'
+[6.018s] --   Found tinyxml2, version 9.0.0
+[6.123s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[6.124s] -- Looking for ignition-gazebo6 -- found version 6.17.0
+[6.125s] -- Searching for dependencies of ignition-gazebo6
+[6.128s] -- Looking for sdformat12 -- found version 12.8.0
+[6.129s] -- Searching for dependencies of sdformat12
+[6.151s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.154s] -- Looking for ignition-utils1 -- found version 1.5.1
+[6.166s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[6.171s] -- Searching for dependencies of ignition-plugin1
+[6.172s] -- Searching for <ignition-plugin1> component [loader]
+[6.181s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[6.186s] -- Searching for dependencies of ignition-plugin1-loader
+[6.187s] -- Searching for <ignition-plugin1> component [register]
+[6.196s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[6.199s] -- Searching for dependencies of ignition-plugin1-register
+[6.203s] -- Looking for ignition-transport11 -- found version 11.4.1
+[6.210s] -- Searching for dependencies of ignition-transport11
+[6.286s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[6.339s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[6.414s] -- Checking for module 'libzmq >= 4'
+[6.582s] --   Found libzmq , version 4.3.4
+[6.865s] -- Looking for ignition-utils1 -- found version 1.5.1
+[6.869s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[6.873s] -- Searching for <ignition-transport11> component [log]
+[6.887s] -- Looking for ignition-transport11-log -- found version 11.4.1
+[6.895s] -- Searching for dependencies of ignition-transport11-log
+[6.906s] -- Searching for <ignition-transport11> component [parameters]
+[6.918s] -- Looking for ignition-transport11-parameters -- found version 11.4.1
+[6.921s] -- Searching for dependencies of ignition-transport11-parameters
+[6.932s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[6.944s] -- Looking for ignition-common4 -- found version 4.7.0
+[6.953s] -- Searching for dependencies of ignition-common4
+[6.953s] -- Looking for dlfcn.h - found
+[6.963s] -- Looking for libdl - found
+[6.974s] -- Found DL: TRUE  
+[7.012s] -- Searching for <ignition-common4> component [profiler]
+[7.020s] -- Looking for ignition-common4-profiler -- found version 4.7.0
+[7.020s] -- Searching for dependencies of ignition-common4-profiler
+[7.020s] -- Searching for <ignition-common4> component [events]
+[7.024s] -- Looking for ignition-common4-events -- found version 4.7.0
+[7.025s] -- Searching for dependencies of ignition-common4-events
+[7.026s] -- Looking for ignition-math6 -- found version 6.15.1
+[7.030s] -- Searching for <ignition-common4> component [av]
+[7.032s] -- Looking for ignition-common4-av -- found version 4.7.0
+[7.033s] -- Searching for dependencies of ignition-common4-av
+[7.054s] -- Checking for module 'libswscale'
+[7.124s] --   Found libswscale, version 5.9.100
+[7.197s] -- Found SWSCALE: TRUE  
+[7.207s] -- Checking for module 'libavdevice >= 56.4.100'
+[7.238s] --   Found libavdevice , version 58.13.100
+[7.308s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[7.317s] -- Checking for module 'libavformat'
+[7.365s] --   Found libavformat, version 58.76.100
+[7.441s] -- Found AVFORMAT: TRUE  
+[7.455s] -- Checking for module 'libavcodec'
+[7.517s] --   Found libavcodec, version 58.134.100
+[7.639s] -- Found AVCODEC: TRUE  
+[7.661s] -- Checking for module 'libavutil'
+[7.769s] --   Found libavutil, version 56.70.100
+[7.856s] -- Found AVUTIL: TRUE  
+[7.868s] -- Looking for ignition-fuel_tools7 -- found version 7.3.1
+[7.870s] -- Searching for dependencies of ignition-fuel_tools7
+[8.040s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[8.056s] -- Checking for module 'jsoncpp'
+[8.090s] --   Found jsoncpp, version 1.9.5
+[8.185s] -- Found JSONCPP: TRUE  
+[8.200s] -- Checking for module 'libzip'
+[8.242s] --   Found libzip, version 1.7.3
+[8.371s] -- Found ZIP: TRUE  
+[8.374s] -- Looking for ignition-common4 -- found version 4.7.0
+[8.374s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.380s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[8.387s] -- Looking for ignition-gui6 -- found version 6.8.0
+[8.390s] -- Searching for dependencies of ignition-gui6
+[8.448s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[8.467s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.468s] -- Looking for ignition-common4 -- found version 4.7.0
+[8.469s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[8.472s] -- Looking for ignition-transport11 -- found version 11.4.1
+[8.475s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[8.477s] -- Searching for dependencies of ignition-rendering6
+[8.478s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.479s] -- Searching for dependencies of ignition-math6
+[8.479s] -- Searching for <ignition-math6> component [eigen3]
+[8.484s] -- Looking for ignition-math6-eigen3 -- found version 6.15.1
+[8.488s] -- Searching for dependencies of ignition-math6-eigen3
+[8.502s] -- Looking for ignition-common4 -- found version 4.7.0
+[8.503s] -- Searching for dependencies of ignition-common4
+[8.504s] -- Looking for dlfcn.h - found
+[8.505s] -- Looking for libdl - found
+[8.525s] -- Searching for <ignition-common4> component [graphics]
+[8.527s] -- Looking for ignition-common4-graphics -- found version 4.7.0
+[8.528s] -- Searching for dependencies of ignition-common4-graphics
+[8.529s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.531s] -- Looking for ignition-utils1 -- found version 1.5.1
+[8.531s] -- Searching for <ignition-common4> component [events]
+[8.533s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[8.534s] -- Searching for dependencies of ignition-plugin1
+[8.537s] -- Searching for <ignition-plugin1> component [all]
+[8.539s] -- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+[8.540s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[8.545s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[8.585s] -- Looking for ignition-physics5 -- found version 5.3.2
+[8.586s] -- Searching for dependencies of ignition-physics5
+[8.588s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.588s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[8.589s] -- Looking for ignition-utils1 -- found version 1.5.1
+[8.592s] -- Searching for <ignition-physics5> component [heightmap]
+[8.597s] -- Looking for ignition-physics5-heightmap -- found version 5.3.2
+[8.597s] -- Searching for dependencies of ignition-physics5-heightmap
+[8.598s] -- Looking for ignition-common4 -- found version 4.7.0
+[8.599s] -- Searching for <ignition-physics5> component [mesh]
+[8.603s] -- Looking for ignition-physics5-mesh -- found version 5.3.2
+[8.605s] -- Searching for dependencies of ignition-physics5-mesh
+[8.605s] -- Looking for ignition-common4 -- found version 4.7.0
+[8.607s] -- Searching for <ignition-physics5> component [sdf]
+[8.615s] -- Looking for ignition-physics5-sdf -- found version 5.3.2
+[8.619s] -- Searching for dependencies of ignition-physics5-sdf
+[8.620s] -- Looking for sdformat12 -- found version 12.8.0
+[8.622s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[8.623s] -- Searching for dependencies of ignition-sensors6
+[8.654s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[8.659s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.659s] -- Looking for ignition-common4 -- found version 4.7.0
+[8.659s] -- Looking for ignition-transport11 -- found version 11.4.1
+[8.659s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[8.659s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[8.664s] -- Looking for sdformat12 -- found version 12.8.0
+[8.664s] -- Searching for <ignition-sensors6> component [air_pressure]
+[8.666s] -- Looking for ignition-sensors6-air_pressure -- found version 6.8.1
+[8.667s] -- Searching for dependencies of ignition-sensors6-air_pressure
+[8.670s] -- Searching for <ignition-sensors6> component [altimeter]
+[8.673s] -- Looking for ignition-sensors6-altimeter -- found version 6.8.1
+[8.674s] -- Searching for dependencies of ignition-sensors6-altimeter
+[8.675s] -- Searching for <ignition-sensors6> component [imu]
+[8.680s] -- Looking for ignition-sensors6-imu -- found version 6.8.1
+[8.682s] -- Searching for dependencies of ignition-sensors6-imu
+[8.683s] -- Searching for <ignition-sensors6> component [force_torque]
+[8.686s] -- Looking for ignition-sensors6-force_torque -- found version 6.8.1
+[8.688s] -- Searching for dependencies of ignition-sensors6-force_torque
+[8.689s] -- Searching for <ignition-sensors6> component [logical_camera]
+[8.693s] -- Looking for ignition-sensors6-logical_camera -- found version 6.8.1
+[8.698s] -- Searching for dependencies of ignition-sensors6-logical_camera
+[8.699s] -- Searching for <ignition-sensors6> component [magnetometer]
+[8.700s] -- Looking for ignition-sensors6-magnetometer -- found version 6.8.1
+[8.704s] -- Searching for dependencies of ignition-sensors6-magnetometer
+[8.705s] -- Searching for <ignition-sensors6> component [navsat]
+[8.705s] -- Looking for ignition-sensors6-navsat -- found version 6.8.1
+[8.706s] -- Searching for dependencies of ignition-sensors6-navsat
+[8.707s] -- Searching for <ignition-sensors6> component [rendering]
+[8.712s] -- Looking for ignition-sensors6-rendering -- found version 6.8.1
+[8.712s] -- Searching for dependencies of ignition-sensors6-rendering
+[8.713s] -- Searching for <ignition-sensors6> component [lidar]
+[8.720s] -- Looking for ignition-sensors6-lidar -- found version 6.8.1
+[8.720s] -- Searching for dependencies of ignition-sensors6-lidar
+[8.720s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[8.720s] -- Searching for <ignition-sensors6> component [gpu_lidar]
+[8.721s] -- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.1
+[8.722s] -- Searching for dependencies of ignition-sensors6-gpu_lidar
+[8.723s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[8.724s] -- Searching for <ignition-sensors6> component [camera]
+[8.727s] -- Looking for ignition-sensors6-camera -- found version 6.8.1
+[8.728s] -- Searching for dependencies of ignition-sensors6-camera
+[8.729s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[8.734s] -- Searching for <ignition-sensors6> component [boundingbox_camera]
+[8.734s] -- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.1
+[8.735s] -- Searching for dependencies of ignition-sensors6-boundingbox_camera
+[8.736s] -- Searching for <ignition-sensors6> component [segmentation_camera]
+[8.739s] -- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.1
+[8.740s] -- Searching for dependencies of ignition-sensors6-segmentation_camera
+[8.741s] -- Searching for <ignition-sensors6> component [depth_camera]
+[8.745s] -- Looking for ignition-sensors6-depth_camera -- found version 6.8.1
+[8.746s] -- Searching for dependencies of ignition-sensors6-depth_camera
+[8.746s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[8.747s] -- Searching for <ignition-sensors6> component [rgbd_camera]
+[8.751s] -- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.1
+[8.754s] -- Searching for dependencies of ignition-sensors6-rgbd_camera
+[8.754s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[8.754s] -- Searching for <ignition-sensors6> component [thermal_camera]
+[8.757s] -- Looking for ignition-sensors6-thermal_camera -- found version 6.8.1
+[8.758s] -- Searching for dependencies of ignition-sensors6-thermal_camera
+[8.758s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[8.760s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[8.761s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.765s] -- Looking for ignition-utils1 -- found version 1.5.1
+[8.804s] -- Compiling against Gazebo Fortress
+[8.807s] -- Looking for gflags - found
+[8.807s] 
+[8.834s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.016s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[9.020s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[9.042s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.044s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.045s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros_gz/ros_gz_sim/include>
+[9.045s] -- Configured cppcheck exclude dirs and/or files: 
+[9.049s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.049s] -- Configured cpplint exclude dirs and/or files: 
+[9.052s] -- Added test 'lint_cmake' to check CMake code style
+[9.056s] -- Added test 'uncrustify' to check C / C++ code style
+[9.057s] -- Configured uncrustify additional arguments: 
+[9.061s] -- Added test 'xmllint' to check XML markup files
+[9.066s] -- Configuring done
+[9.100s] -- Generating done
+[9.115s] -- Build files have been written to: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_sim
+[9.139s] Invoked command in '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/rqt_controller_manager:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros2controlcli:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros_gz/ros_gz_sim -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim
+[9.140s] Invoking command in '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/rqt_controller_manager:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros2controlcli:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_sim -- -j20 -l20
+[9.308s] [ 10%] [32mBuilding CXX object CMakeFiles/create.dir/src/create.cpp.o[0m
+[9.318s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[9.328s] [ 30%] [32mBuilding CXX object CMakeFiles/ros_gz_sim.dir/src/Stopwatch.cpp.o[0m
+[9.330s] [ 40%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[10.735s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[10.918s] [ 50%] Built target gtest_main
+[11.832s] [ 60%] [32m[1mLinking CXX shared library libros_gz_sim.so[0m
+[12.119s] [ 60%] Built target ros_gz_sim
+[22.876s] [ 70%] [32m[1mLinking CXX static library libgtest.a[0m
+[22.974s] [ 70%] Built target gtest
+[23.013s] [ 80%] [32mBuilding CXX object CMakeFiles/test_stopwatch.dir/test/test_stopwatch.cpp.o[0m
+[35.359s] [ 90%] [32m[1mLinking CXX executable test_stopwatch[0m
+[35.527s] [ 90%] Built target test_stopwatch
+[36.033s] [100%] [32m[1mLinking CXX executable create[0m
+[36.283s] [100%] Built target create
+[36.297s] Invoked command in '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/rqt_controller_manager:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros2controlcli:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_sim -- -j20 -l20
+[36.298s] Invoking command in '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/rqt_controller_manager:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros2controlcli:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_sim
+[36.306s] -- Install configuration: "Release"
+[36.306s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/include/ros_gz_sim
+[36.307s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/include/ros_gz_sim/Stopwatch.hpp
+[36.307s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/share/ros_gz_sim/launch/gz_sim.launch.py
+[36.307s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/lib/ros_gz_sim/create
+[36.308s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/lib/ros_gz_sim/create" to ""
+[36.308s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/lib/libros_gz_sim.so
+[36.308s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/lib/libros_gz_sim.so" to ""
+[36.308s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/lib/ros_gz_sim/test_stopwatch
+[36.309s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/lib/ros_gz_sim/test_stopwatch" to ""
+[36.309s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/share/ament_index/resource_index/package_run_dependencies/ros_gz_sim
+[36.309s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/share/ament_index/resource_index/parent_prefix_path/ros_gz_sim
+[36.309s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/share/ros_gz_sim/environment/ament_prefix_path.sh
+[36.310s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/share/ros_gz_sim/environment/ament_prefix_path.dsv
+[36.310s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/share/ros_gz_sim/environment/path.sh
+[36.310s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/share/ros_gz_sim/environment/path.dsv
+[36.310s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/share/ros_gz_sim/local_setup.bash
+[36.310s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/share/ros_gz_sim/local_setup.sh
+[36.310s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/share/ros_gz_sim/local_setup.zsh
+[36.311s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/share/ros_gz_sim/local_setup.dsv
+[36.311s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/share/ros_gz_sim/package.dsv
+[36.311s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/share/ament_index/resource_index/packages/ros_gz_sim
+[36.311s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/share/ros_gz_sim/cmake/ros_gz_simExport.cmake
+[36.311s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/share/ros_gz_sim/cmake/ros_gz_simExport-release.cmake
+[36.311s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/share/ros_gz_sim/cmake/ament_cmake_export_targets-extras.cmake
+[36.311s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/share/ros_gz_sim/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.311s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/share/ros_gz_sim/cmake/ros_gz_simConfig.cmake
+[36.311s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/share/ros_gz_sim/cmake/ros_gz_simConfig-version.cmake
+[36.312s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_sim/share/ros_gz_sim/package.xml
+[36.315s] Invoked command in '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/rqt_controller_manager:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros2controlcli:/home/mampane/Desktop/machine_tending_robot/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_sim
