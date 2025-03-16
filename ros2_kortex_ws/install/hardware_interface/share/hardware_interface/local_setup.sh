@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/hardware_interface/ament_cmake_environment_hooks/local_setup.sh

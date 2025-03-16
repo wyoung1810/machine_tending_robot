@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/control_msgs/rosidl_generator_cpp/control_msgs/msg/dynamic_interface_group_values.hpp

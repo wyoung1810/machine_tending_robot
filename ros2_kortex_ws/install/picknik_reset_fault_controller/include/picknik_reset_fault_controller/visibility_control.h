@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/picknik_controllers/picknik_reset_fault_controller/include/picknik_reset_fault_controller/visibility_control.h

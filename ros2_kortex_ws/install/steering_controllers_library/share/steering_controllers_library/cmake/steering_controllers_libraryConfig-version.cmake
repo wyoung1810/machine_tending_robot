@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/steering_controllers_library/ament_cmake_core/steering_controllers_libraryConfig-version.cmake

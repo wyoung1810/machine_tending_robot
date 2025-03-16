@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/controller_manager_msgs/rosidl_generator_cpp/controller_manager_msgs/srv/detail/list_hardware_components__struct.hpp

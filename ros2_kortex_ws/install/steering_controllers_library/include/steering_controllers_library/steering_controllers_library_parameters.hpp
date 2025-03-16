@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/steering_controllers_library/include/steering_controllers_library/steering_controllers_library_parameters.hpp

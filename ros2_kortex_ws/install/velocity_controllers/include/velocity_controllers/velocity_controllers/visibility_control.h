@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros2_controllers/velocity_controllers/include/velocity_controllers/visibility_control.h

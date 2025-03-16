@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake

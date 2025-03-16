@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/picknik_twist_controller/ament_cmake_core/picknik_twist_controllerConfig.cmake

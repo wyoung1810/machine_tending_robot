@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/gz_ros2_control/ign_ros2_control_demos/launch/pendulum_example_effort.launch.py

@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros2_robotiq_gripper/robotiq_controllers/include/robotiq_controllers/robotiq_activation_controller.hpp

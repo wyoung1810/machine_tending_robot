@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_ign_image/ament_cmake_core/ros_ign_imageConfig-version.cmake

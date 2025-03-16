@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/controller_manager_msgs/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_introspection_cpp.hpp

@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster_parameters.hpp

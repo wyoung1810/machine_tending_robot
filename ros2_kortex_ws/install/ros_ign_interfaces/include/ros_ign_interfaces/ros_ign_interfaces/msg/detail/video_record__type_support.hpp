@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_ign_interfaces/rosidl_generator_cpp/ros_ign_interfaces/msg/detail/video_record__type_support.hpp

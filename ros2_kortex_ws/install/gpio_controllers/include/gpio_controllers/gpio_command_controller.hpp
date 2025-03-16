@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros2_controllers/gpio_controllers/include/gpio_controllers/gpio_command_controller.hpp

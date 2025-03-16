@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/realtime_tools/include/realtime_tools/realtime_server_goal_handle.hpp

@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/control_msgs/rosidl_generator_py/control_msgs/action/__init__.py

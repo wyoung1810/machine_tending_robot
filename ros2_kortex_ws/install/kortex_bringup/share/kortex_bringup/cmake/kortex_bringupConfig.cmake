@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/kortex_bringup/ament_cmake_core/kortex_bringupConfig.cmake

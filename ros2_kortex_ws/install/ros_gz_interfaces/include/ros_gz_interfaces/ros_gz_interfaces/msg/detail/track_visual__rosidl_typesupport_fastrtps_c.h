@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_interfaces/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/track_visual__rosidl_typesupport_fastrtps_c.h

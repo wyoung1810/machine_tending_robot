@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/picknik_reset_fault_controller/ament_cmake_core/picknik_reset_fault_controllerConfig.cmake

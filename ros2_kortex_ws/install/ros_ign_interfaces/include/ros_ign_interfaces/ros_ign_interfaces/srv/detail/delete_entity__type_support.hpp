@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_ign_interfaces/rosidl_generator_cpp/ros_ign_interfaces/srv/detail/delete_entity__type_support.hpp

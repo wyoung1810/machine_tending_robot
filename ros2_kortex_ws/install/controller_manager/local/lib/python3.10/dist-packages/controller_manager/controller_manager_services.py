@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros2_control/controller_manager/controller_manager/controller_manager_services.py

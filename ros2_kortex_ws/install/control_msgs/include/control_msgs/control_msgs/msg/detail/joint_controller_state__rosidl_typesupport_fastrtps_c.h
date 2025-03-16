@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/control_msgs/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/joint_controller_state__rosidl_typesupport_fastrtps_c.h

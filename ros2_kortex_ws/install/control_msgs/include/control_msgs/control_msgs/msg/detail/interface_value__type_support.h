@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/control_msgs/rosidl_generator_c/control_msgs/msg/detail/interface_value__type_support.h

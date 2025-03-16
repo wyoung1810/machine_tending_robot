@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/control_msgs/ament_cmake_environment_hooks/local_setup.bash

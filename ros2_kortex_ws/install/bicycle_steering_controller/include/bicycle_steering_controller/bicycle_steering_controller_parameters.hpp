@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/bicycle_steering_controller/include/bicycle_steering_controller/bicycle_steering_controller_parameters.hpp

@@ -1,9 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/kortex_bringup/CMakeFiles/uninstall.dir
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/kortex_bringup/CMakeFiles/kortex_bringup_uninstall.dir
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/kortex_bringup/CMakeFiles/test.dir
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/kortex_bringup/CMakeFiles/edit_cache.dir
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/kortex_bringup/CMakeFiles/rebuild_cache.dir
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/kortex_bringup/CMakeFiles/list_install_components.dir
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/kortex_bringup/CMakeFiles/install.dir
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/kortex_bringup/CMakeFiles/install/local.dir
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/kortex_bringup/CMakeFiles/install/strip.dir

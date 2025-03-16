@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/realtime_tools/ament_cmake_core/realtime_toolsConfig-version.cmake

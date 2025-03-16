@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/forward_command_controller/include/forward_command_controller/forward_command_controller_parameters.hpp

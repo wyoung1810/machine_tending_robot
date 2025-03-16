@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/kinova_gen3_lite_moveit_config/ament_cmake_core/kinova_gen3_lite_moveit_configConfig-version.cmake

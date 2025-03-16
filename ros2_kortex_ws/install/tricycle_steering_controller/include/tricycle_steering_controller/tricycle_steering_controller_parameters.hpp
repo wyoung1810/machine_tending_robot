@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/tricycle_steering_controller/include/tricycle_steering_controller/tricycle_steering_controller_parameters.hpp

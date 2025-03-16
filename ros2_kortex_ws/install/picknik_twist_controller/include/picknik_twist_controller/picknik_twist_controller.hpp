@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/picknik_controllers/picknik_twist_controller/include/picknik_twist_controller/picknik_twist_controller.hpp

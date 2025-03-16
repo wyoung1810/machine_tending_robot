@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_ign_interfaces/rosidl_generator_c/ros_ign_interfaces/msg/detail/world_control__struct.h

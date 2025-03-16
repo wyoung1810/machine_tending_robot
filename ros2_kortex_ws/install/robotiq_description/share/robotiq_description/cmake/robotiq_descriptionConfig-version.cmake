@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/robotiq_description/ament_cmake_core/robotiq_descriptionConfig-version.cmake

@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/gz_ros2_control_tests/ament_cmake_core/gz_ros2_control_testsConfig.cmake

@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros2_control/hardware_interface/include/mock_components/visibility_control.h

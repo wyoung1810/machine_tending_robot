@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/gripper_controllers/include/gripper_controllers/gripper_action_controller_parameters.hpp

@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros2_kortex/kortex_bringup/launch/test_huge_joint_space_jump.launch.py

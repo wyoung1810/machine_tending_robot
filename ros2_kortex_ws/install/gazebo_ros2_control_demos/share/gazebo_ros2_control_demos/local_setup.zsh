@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/gazebo_ros2_control_demos/ament_cmake_environment_hooks/local_setup.zsh

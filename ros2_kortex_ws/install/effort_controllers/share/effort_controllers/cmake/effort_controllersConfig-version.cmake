@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/effort_controllers/ament_cmake_core/effort_controllersConfig-version.cmake

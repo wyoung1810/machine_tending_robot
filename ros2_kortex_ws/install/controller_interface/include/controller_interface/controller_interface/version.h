@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/controller_interface/ament_generate_version_header/controller_interface/controller_interface/version.h

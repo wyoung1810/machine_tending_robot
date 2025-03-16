@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/kortex_api/_deps/kinova_binary_api-src/include/messages/Session.pb.h

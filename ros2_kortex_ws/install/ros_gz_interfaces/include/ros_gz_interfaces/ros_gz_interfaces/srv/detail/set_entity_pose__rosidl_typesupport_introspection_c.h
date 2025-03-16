@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_interfaces/rosidl_typesupport_introspection_c/ros_gz_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_introspection_c.h

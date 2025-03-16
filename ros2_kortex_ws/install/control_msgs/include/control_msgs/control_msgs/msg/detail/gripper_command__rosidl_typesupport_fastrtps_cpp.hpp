@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/control_msgs/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/gripper_command__rosidl_typesupport_fastrtps_cpp.hpp

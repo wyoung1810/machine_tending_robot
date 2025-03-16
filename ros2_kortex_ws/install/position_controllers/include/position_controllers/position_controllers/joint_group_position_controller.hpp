@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros2_controllers/position_controllers/include/position_controllers/joint_group_position_controller.hpp

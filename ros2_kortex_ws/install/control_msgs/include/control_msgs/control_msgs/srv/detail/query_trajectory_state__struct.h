@@ -1,1 +1,0 @@
-/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/control_msgs/rosidl_generator_c/control_msgs/srv/detail/query_trajectory_state__struct.h
