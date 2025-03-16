@@ -1,2 +1,1 @@
-
-bool ok
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/controller_manager_msgs/rosidl_cmake/srv/ConfigureController_Response.msg

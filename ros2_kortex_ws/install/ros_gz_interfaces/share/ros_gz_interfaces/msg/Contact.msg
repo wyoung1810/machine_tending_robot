@@ -1,6 +1,1 @@
-ros_gz_interfaces/Entity collision1        # Contact collision1
-ros_gz_interfaces/Entity collision2        # Contact collision2
-geometry_msgs/Vector3[] positions           # List of contact position
-geometry_msgs/Vector3[] normals             # List of contact normals
-float64[] depths                            # List of penetration depths
-ros_gz_interfaces/JointWrench[] wrenches   # List of joint wrenches including forces/torques
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros_gz/ros_gz_interfaces/msg/Contact.msg

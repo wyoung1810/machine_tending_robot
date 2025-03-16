@@ -1,1 +1,1 @@
-ros_gz_interfaces/WorldControl world_control  # Message to Control world in Gazebo Sim
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_interfaces/rosidl_cmake/srv/ControlWorld_Request.msg

@@ -1,2 +1,1 @@
-source;share/ros_gz_sim/environment/ament_prefix_path.sh
-source;share/ros_gz_sim/environment/path.sh
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_sim/ament_cmake_environment_hooks/local_setup.dsv

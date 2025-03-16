@@ -1,9 +1,1 @@
-<library path="kortex_driver">
-  <class name="kortex_driver/KortexMultiInterfaceHardware"
-         type="kortex_driver::KortexMultiInterfaceHardware"
-         base_class_type="hardware_interface::SystemInterface">
-    <description>
-      The ROS2 Control for the Kinova Kortex robot protocol.
-    </description>
-  </class>
-</library>
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros2_kortex/kortex_driver/hardware_interface_plugin.xml

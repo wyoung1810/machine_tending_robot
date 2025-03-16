@@ -1,8 +1,1 @@
-gripper_joint_names:
-  - $(arg prefix)right_finger_bottom_joint
-
-gripper_joint_limits_min:
-  - 0.96
-
-gripper_joint_limits_max:
-  - -0.09
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros2_kortex/kortex_description/grippers/gen3_lite_2f/config/joint_limits.yaml

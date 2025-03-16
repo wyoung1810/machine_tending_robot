@@ -1,2 +1,1 @@
-source;share/test_ros_gz_bridge/environment/ament_prefix_path.sh
-source;share/test_ros_gz_bridge/environment/path.sh
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/test_ros_gz_bridge/ament_cmake_environment_hooks/local_setup.dsv

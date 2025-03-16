@@ -1,2 +1,1 @@
-float64 position
-float64 max_effort
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/control_msgs/control_msgs/msg/GripperCommand.msg

@@ -1,1 +1,1 @@
-ros_gz_interfaces/Entity entity  # Gazebo Sim entity to be deleted. 
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_interfaces/rosidl_cmake/srv/DeleteEntity_Request.msg

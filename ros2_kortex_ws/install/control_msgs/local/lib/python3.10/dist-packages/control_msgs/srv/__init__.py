@@ -1,2 +1,1 @@
-from control_msgs.srv._query_calibration_state import QueryCalibrationState  # noqa: F401
-from control_msgs.srv._query_trajectory_state import QueryTrajectoryState  # noqa: F401
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/control_msgs/rosidl_generator_py/control_msgs/srv/__init__.py

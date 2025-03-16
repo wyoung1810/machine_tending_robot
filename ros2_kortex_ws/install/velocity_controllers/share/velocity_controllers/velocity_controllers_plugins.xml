@@ -1,7 +1,1 @@
-<library path="velocity_controllers">
-  <class name="velocity_controllers/JointGroupVelocityController" type="velocity_controllers::JointGroupVelocityController" base_class_type="controller_interface::ControllerInterface">
-    <description>
-      The joint velocity controller commands a group of joints through the velocity interface
-    </description>
-  </class>
-</library>
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros2_controllers/velocity_controllers/velocity_controllers_plugins.xml

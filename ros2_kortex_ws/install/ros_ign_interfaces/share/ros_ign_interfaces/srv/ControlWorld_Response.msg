@@ -1,2 +1,1 @@
-
-bool success                                   # Return true if control is successful.
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_ign_interfaces/rosidl_cmake/srv/ControlWorld_Response.msg

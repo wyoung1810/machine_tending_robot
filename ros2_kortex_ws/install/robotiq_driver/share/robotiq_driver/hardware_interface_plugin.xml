@@ -1,7 +1,1 @@
-<library path="robotiq_driver">
-    <class name="robotiq_driver/RobotiqGripperHardwareInterface" type="robotiq_driver::RobotiqGripperHardwareInterface" base_class_type="hardware_interface::SystemInterface">
-        <description>
-            ROS2 controller for the Robotiq gripper.
-        </description>
-    </class>
-</library>
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros2_robotiq_gripper/robotiq_driver/hardware_interface_plugin.xml

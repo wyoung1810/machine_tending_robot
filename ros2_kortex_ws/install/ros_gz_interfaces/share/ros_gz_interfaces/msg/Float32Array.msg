@@ -1,1 +1,1 @@
-float32[] data
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros_gz/ros_gz_interfaces/msg/Float32Array.msg

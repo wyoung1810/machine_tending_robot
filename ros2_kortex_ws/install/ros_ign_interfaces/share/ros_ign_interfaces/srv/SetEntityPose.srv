@@ -1,4 +1,1 @@
-ros_gz_interfaces/Entity entity    # Gazebo Sim entity.
-geometry_msgs/Pose pose             # Pose of entity.
----
-bool success                        # Return true if set successfully.
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros_gz/ros_ign_interfaces/srv/SetEntityPose.srv

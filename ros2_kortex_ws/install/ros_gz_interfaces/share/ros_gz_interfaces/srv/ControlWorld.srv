@@ -1,3 +1,1 @@
-ros_gz_interfaces/WorldControl world_control  # Message to Control world in Gazebo Sim
----
-bool success                                   # Return true if control is successful.
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros_gz/ros_gz_interfaces/srv/ControlWorld.srv

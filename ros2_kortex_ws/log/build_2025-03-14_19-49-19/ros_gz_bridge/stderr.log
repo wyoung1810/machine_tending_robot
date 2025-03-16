@@ -1,4 +1,0 @@
-[01m[K/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros_gz/ros_gz_bridge/src/ros_gz_bridge.cpp:[m[K In member function ‘[01m[Kvoid ros_gz_bridge::RosGzBridge::spin()[m[K’:
-[01m[K/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros_gz/ros_gz_bridge/src/ros_gz_bridge.cpp:49:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kexpand_names[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
-   49 |     bool [01;35m[Kexpand_names[m[K;
-      |          [01;35m[K^~~~~~~~~~~~[m[K

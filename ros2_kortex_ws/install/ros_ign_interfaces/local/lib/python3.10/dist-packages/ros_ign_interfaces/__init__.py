@@ -1,0 +1,1 @@
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_ign_interfaces/rosidl_generator_py/ros_ign_interfaces/__init__.py

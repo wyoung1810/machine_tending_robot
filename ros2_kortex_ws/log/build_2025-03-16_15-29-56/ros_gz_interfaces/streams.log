@@ -1,0 +1,792 @@
+[0.016s] Invoking command in '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros_gz/ros_gz_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces
+[0.049s] -- The C compiler identification is GNU 11.4.0
+[0.093s] -- The CXX compiler identification is GNU 11.4.0
+[0.098s] -- Detecting C compiler ABI info
+[0.153s] -- Detecting C compiler ABI info - done
+[0.162s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.162s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.166s] -- Detecting CXX compiler ABI info
+[0.218s] -- Detecting CXX compiler ABI info - done
+[0.223s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.223s] -- Detecting CXX compile features
+[0.224s] -- Detecting CXX compile features - done
+[0.225s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.333s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.378s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.395s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.427s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.432s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.440s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.453s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.469s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.484s] -- Found rcl_interfaces: 1.2.1 (/opt/ros/humble/share/rcl_interfaces/cmake)
+[0.497s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.511s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.525s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.878s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[0.879s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[0.881s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[0.882s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.265s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.443s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.465s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.466s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.494s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.494s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.494s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.494s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.510s] -- Found PythonExtra: .so  
+[1.573s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[1.575s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[1.583s] -- Configuring done
+[1.634s] -- Generating done
+[1.644s] -- Build files have been written to: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_interfaces
+[1.652s] Invoked command in '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros_gz/ros_gz_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces
+[1.652s] Invoking command in '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_interfaces -- -j20 -l20
+[1.695s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.710s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.715s] [  1%] Built target ament_cmake_python_symlink_ros_gz_interfaces
+[1.984s] running egg_info
+[1.985s] creating ros_gz_interfaces.egg-info
+[1.985s] writing ros_gz_interfaces.egg-info/PKG-INFO
+[1.986s] writing dependency_links to ros_gz_interfaces.egg-info/dependency_links.txt
+[1.986s] writing top-level names to ros_gz_interfaces.egg-info/top_level.txt
+[1.986s] writing manifest file 'ros_gz_interfaces.egg-info/SOURCES.txt'
+[1.989s] reading manifest file 'ros_gz_interfaces.egg-info/SOURCES.txt'
+[1.989s] writing manifest file 'ros_gz_interfaces.egg-info/SOURCES.txt'
+[2.018s] [  1%] Built target ament_cmake_python_build_ros_gz_interfaces_egg
+[4.593s] [  1%] Built target ros_gz_interfaces__cpp
+[4.619s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.625s] [  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.629s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.017s] [  5%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/contact__functions.c.o[0m
+[6.017s] [  6%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/dataframe__functions.c.o[0m
+[6.019s] [  6%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/altimeter__functions.c.o[0m
+[6.024s] [  6%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/entity__functions.c.o[0m
+[6.025s] [  6%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/contacts__functions.c.o[0m
+[6.032s] [  7%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/entity_factory__functions.c.o[0m
+[6.047s] [  7%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/entity_wrench__functions.c.o[0m
+[6.047s] [  8%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/float32_array__functions.c.o[0m
+[6.052s] [  8%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/gui_camera__functions.c.o[0m
+[6.062s] [  9%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/joint_wrench__functions.c.o[0m
+[6.077s] [  9%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/light__functions.c.o[0m
+[6.096s] [ 10%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/sensor_noise__functions.c.o[0m
+[6.096s] [ 11%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/material_color__functions.c.o[0m
+[6.098s] [ 11%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/param_vec__functions.c.o[0m
+[6.106s] [ 11%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/string_vec__functions.c.o[0m
+[6.111s] [ 12%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/track_visual__functions.c.o[0m
+[6.117s] [ 12%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/video_record__functions.c.o[0m
+[6.150s] [ 12%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/world_reset__functions.c.o[0m
+[6.152s] [ 13%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/world_control__functions.c.o[0m
+[6.164s] [ 14%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/control_world__functions.c.o[0m
+[6.164s] [ 14%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/delete_entity__functions.c.o[0m
+[6.209s] [ 15%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/set_entity_pose__functions.c.o[0m
+[6.230s] [ 15%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/spawn_entity__functions.c.o[0m
+[6.455s] [ 16%] [32m[1mLinking C shared library libros_gz_interfaces__rosidl_generator_c.so[0m
+[6.569s] [ 16%] Built target ros_gz_interfaces__rosidl_generator_c
+[6.606s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.608s] [ 18%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.612s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.508s] [ 19%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/altimeter__type_support.cpp.o[0m
+[9.517s] [ 19%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/contacts__type_support.cpp.o[0m
+[9.517s] [ 20%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/contact__type_support.cpp.o[0m
+[9.517s] [ 20%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/altimeter__type_support.cpp.o[0m
+[9.520s] [ 21%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/dataframe__type_support.cpp.o[0m
+[9.522s] [ 22%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/dataframe__type_support.cpp.o[0m
+[9.524s] [ 22%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/entity__type_support.cpp.o[0m
+[9.527s] [ 23%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/float32_array__type_support.cpp.o[0m
+[9.528s] [ 24%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/entity_factory__type_support.cpp.o[0m
+[9.528s] [ 25%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/entity_factory__type_support.cpp.o[0m
+[9.528s] [ 25%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/entity__type_support.cpp.o[0m
+[9.530s] [ 26%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/contact__type_support.cpp.o[0m
+[9.531s] [ 26%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/entity_wrench__type_support.cpp.o[0m
+[9.534s] [ 26%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/contacts__type_support.cpp.o[0m
+[9.534s] [ 26%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/gui_camera__type_support.cpp.o[0m
+[9.535s] [ 26%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/entity_wrench__type_support.cpp.o[0m
+[9.900s] [ 26%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/joint_wrench__type_support.cpp.o[0m
+[9.941s] [ 27%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/float32_array__type_support.cpp.o[0m
+[9.944s] [ 28%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/light__type_support.cpp.o[0m
+[10.021s] [ 28%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/gui_camera__type_support.cpp.o[0m
+[10.150s] [ 29%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/joint_wrench__type_support.cpp.o[0m
+[10.174s] [ 29%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/material_color__type_support.cpp.o[0m
+[10.307s] [ 30%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/param_vec__type_support.cpp.o[0m
+[10.315s] [ 30%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/sensor_noise__type_support.cpp.o[0m
+[10.326s] [ 31%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/string_vec__type_support.cpp.o[0m
+[10.334s] [ 31%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/light__type_support.cpp.o[0m
+[10.337s] [ 31%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/track_visual__type_support.cpp.o[0m
+[10.369s] [ 32%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/material_color__type_support.cpp.o[0m
+[10.399s] [ 32%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/param_vec__type_support.cpp.o[0m
+[10.432s] [ 32%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/altimeter__type_support.cpp.o[0m
+[10.433s] [ 33%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/sensor_noise__type_support.cpp.o[0m
+[10.460s] [ 34%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/contact__type_support.cpp.o[0m
+[10.471s] [ 34%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/altimeter__type_support.cpp.o[0m
+[10.534s] [ 35%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/contact__type_support.cpp.o[0m
+[10.606s] [ 35%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/string_vec__type_support.cpp.o[0m
+[10.606s] [ 35%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/contacts__type_support.cpp.o[0m
+[10.662s] [ 36%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/track_visual__type_support.cpp.o[0m
+[10.672s] [ 36%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/video_record__type_support.cpp.o[0m
+[10.672s] [ 37%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/world_control__type_support.cpp.o[0m
+[10.685s] [ 38%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/dataframe__type_support.cpp.o[0m
+[10.776s] [ 38%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/entity__type_support.cpp.o[0m
+[10.811s] [ 38%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/world_reset__type_support.cpp.o[0m
+[10.842s] [ 39%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/entity_factory__type_support.cpp.o[0m
+[10.863s] [ 40%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/srv/detail/control_world__type_support.cpp.o[0m
+[10.890s] [ 40%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/entity_wrench__type_support.cpp.o[0m
+[10.919s] [ 40%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/float32_array__type_support.cpp.o[0m
+[10.919s] [ 40%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/contacts__type_support.cpp.o[0m
+[10.930s] [ 41%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/dataframe__type_support.cpp.o[0m
+[10.963s] [ 41%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/entity__type_support.cpp.o[0m
+[10.989s] [ 41%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/srv/detail/delete_entity__type_support.cpp.o[0m
+[10.990s] [ 42%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/gui_camera__type_support.cpp.o[0m
+[11.021s] [ 42%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/joint_wrench__type_support.cpp.o[0m
+[11.039s] [ 43%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/light__type_support.cpp.o[0m
+[11.074s] [ 44%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/video_record__type_support.cpp.o[0m
+[11.089s] [ 45%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/entity_factory__type_support.cpp.o[0m
+[11.095s] [ 45%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/world_control__type_support.cpp.o[0m
+[11.115s] [ 45%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/material_color__type_support.cpp.o[0m
+[11.178s] [ 46%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/param_vec__type_support.cpp.o[0m
+[11.236s] [ 46%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/sensor_noise__type_support.cpp.o[0m
+[11.306s] [ 47%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/string_vec__type_support.cpp.o[0m
+[11.363s] [ 47%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/track_visual__type_support.cpp.o[0m
+[11.387s] [ 48%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/world_reset__type_support.cpp.o[0m
+[11.399s] [ 49%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/video_record__type_support.cpp.o[0m
+[11.409s] [ 49%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/world_control__type_support.cpp.o[0m
+[11.474s] [ 50%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/srv/detail/set_entity_pose__type_support.cpp.o[0m
+[11.477s] [ 50%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/control_world__type_support.cpp.o[0m
+[11.497s] [ 51%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/world_reset__type_support.cpp.o[0m
+[11.511s] [ 51%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/entity_wrench__type_support.cpp.o[0m
+[11.541s] [ 51%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/srv/detail/spawn_entity__type_support.cpp.o[0m
+[11.547s] [ 51%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/srv/control_world__type_support.cpp.o[0m
+[11.548s] [ 52%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/delete_entity__type_support.cpp.o[0m
+[11.576s] [ 53%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/srv/delete_entity__type_support.cpp.o[0m
+[11.635s] [ 54%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/float32_array__type_support.cpp.o[0m
+[11.635s] [ 54%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/set_entity_pose__type_support.cpp.o[0m
+[11.649s] [ 54%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/srv/set_entity_pose__type_support.cpp.o[0m
+[11.692s] [ 55%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/spawn_entity__type_support.cpp.o[0m
+[11.746s] [ 56%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/srv/spawn_entity__type_support.cpp.o[0m
+[11.755s] [ 56%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/gui_camera__type_support.cpp.o[0m
+[11.839s] [ 56%] [32m[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_c.so[0m
+[11.908s] [ 57%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/joint_wrench__type_support.cpp.o[0m
+[11.908s] [ 57%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/light__type_support.cpp.o[0m
+[11.971s] [ 58%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/material_color__type_support.cpp.o[0m
+[11.982s] [ 58%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/param_vec__type_support.cpp.o[0m
+[11.990s] [ 58%] Built target ros_gz_interfaces__rosidl_typesupport_c
+[12.015s] [ 59%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/sensor_noise__type_support.cpp.o[0m
+[12.037s] [ 59%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/string_vec__type_support.cpp.o[0m
+[12.066s] [ 60%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/track_visual__type_support.cpp.o[0m
+[12.073s] [ 60%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/video_record__type_support.cpp.o[0m
+[12.108s] [ 60%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/altimeter__type_support.c.o[0m
+[12.146s] [ 60%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/world_control__type_support.cpp.o[0m
+[12.191s] [ 61%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/contact__type_support.c.o[0m
+[12.203s] [ 62%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/world_reset__type_support.cpp.o[0m
+[12.209s] [ 62%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/srv/detail/dds_fastrtps/control_world__type_support.cpp.o[0m
+[12.258s] [ 62%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/contacts__type_support.c.o[0m
+[12.270s] [ 63%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/dataframe__type_support.c.o[0m
+[12.270s] [ 63%] [32m[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_cpp.so[0m
+[12.342s] [ 63%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/entity__type_support.c.o[0m
+[12.355s] [ 64%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/entity_factory__type_support.c.o[0m
+[12.356s] [ 64%] Built target ros_gz_interfaces__rosidl_typesupport_cpp
+[12.367s] [ 64%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/srv/detail/dds_fastrtps/set_entity_pose__type_support.cpp.o[0m
+[12.367s] [ 65%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/srv/detail/dds_fastrtps/delete_entity__type_support.cpp.o[0m
+[12.376s] [ 65%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/altimeter__type_support_c.cpp.o[0m
+[12.380s] [ 66%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/srv/detail/dds_fastrtps/spawn_entity__type_support.cpp.o[0m
+[12.426s] [ 66%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/entity_wrench__type_support.c.o[0m
+[12.439s] [ 67%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/contact__type_support_c.cpp.o[0m
+[12.570s] [ 68%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/float32_array__type_support.c.o[0m
+[12.637s] [ 69%] [32m[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[12.655s] [ 69%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/gui_camera__type_support.c.o[0m
+[12.695s] [ 70%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/joint_wrench__type_support.c.o[0m
+[12.704s] [ 70%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/contacts__type_support_c.cpp.o[0m
+[12.732s] [ 71%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/dataframe__type_support_c.cpp.o[0m
+[12.749s] [ 71%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/light__type_support.c.o[0m
+[12.769s] [ 71%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/entity__type_support_c.cpp.o[0m
+[12.792s] [ 72%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/material_color__type_support.c.o[0m
+[12.829s] [ 72%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/param_vec__type_support.c.o[0m
+[12.841s] [ 72%] Built target ros_gz_interfaces__rosidl_typesupport_introspection_cpp
+[12.848s] [ 73%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/sensor_noise__type_support.c.o[0m
+[12.849s] [ 73%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/string_vec__type_support.c.o[0m
+[12.861s] [ 74%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/entity_factory__type_support_c.cpp.o[0m
+[12.892s] [ 75%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/track_visual__type_support.c.o[0m
+[12.918s] [ 75%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/entity_wrench__type_support_c.cpp.o[0m
+[12.921s] [ 75%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/video_record__type_support.c.o[0m
+[12.925s] [ 76%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/world_control__type_support.c.o[0m
+[12.937s] [ 77%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/float32_array__type_support_c.cpp.o[0m
+[12.941s] [ 77%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/gui_camera__type_support_c.cpp.o[0m
+[12.958s] [ 77%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/world_reset__type_support.c.o[0m
+[12.994s] [ 78%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/srv/detail/control_world__type_support.c.o[0m
+[13.004s] [ 78%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/srv/detail/delete_entity__type_support.c.o[0m
+[13.012s] [ 78%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/srv/detail/set_entity_pose__type_support.c.o[0m
+[13.034s] [ 79%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/joint_wrench__type_support_c.cpp.o[0m
+[13.071s] [ 80%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/srv/detail/spawn_entity__type_support.c.o[0m
+[13.089s] [ 80%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/light__type_support_c.cpp.o[0m
+[13.101s] [ 80%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/param_vec__type_support_c.cpp.o[0m
+[13.104s] [ 81%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/material_color__type_support_c.cpp.o[0m
+[13.121s] [ 82%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/sensor_noise__type_support_c.cpp.o[0m
+[13.126s] [ 82%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/string_vec__type_support_c.cpp.o[0m
+[13.134s] [ 82%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/track_visual__type_support_c.cpp.o[0m
+[13.152s] [ 82%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/world_control__type_support_c.cpp.o[0m
+[13.160s] [ 83%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/video_record__type_support_c.cpp.o[0m
+[13.166s] [ 83%] [32m[1mLinking C shared library libros_gz_interfaces__rosidl_typesupport_introspection_c.so[0m
+[13.171s] [ 84%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/world_reset__type_support_c.cpp.o[0m
+[13.179s] [ 84%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/control_world__type_support_c.cpp.o[0m
+[13.231s] [ 85%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/delete_entity__type_support_c.cpp.o[0m
+[13.244s] [ 85%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/set_entity_pose__type_support_c.cpp.o[0m
+[13.256s] [ 85%] Built target ros_gz_interfaces__rosidl_typesupport_introspection_c
+[13.274s] [ 86%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/spawn_entity__type_support_c.cpp.o[0m
+[13.471s] [ 86%] [32m[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.814s] [ 86%] Built target ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp
+[14.210s] [ 86%] [32m[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[14.398s] [ 86%] Built target ros_gz_interfaces__rosidl_typesupport_fastrtps_c
+[14.454s] [ 86%] Built target ros_gz_interfaces
+[14.496s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[19.090s] [ 86%] Built target ros_gz_interfaces__py
+[19.109s] [ 87%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_altimeter_s.c.o[0m
+[19.109s] [ 87%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_contact_s.c.o[0m
+[19.109s] [ 87%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_entity_factory_s.c.o[0m
+[19.109s] [ 88%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_gui_camera_s.c.o[0m
+[19.112s] [ 88%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_dataframe_s.c.o[0m
+[19.112s] [ 88%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_contacts_s.c.o[0m
+[19.114s] [ 88%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_float32_array_s.c.o[0m
+[19.114s] [ 89%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_entity_s.c.o[0m
+[19.114s] [ 90%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_entity_wrench_s.c.o[0m
+[19.114s] [ 90%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_material_color_s.c.o[0m
+[19.114s] [ 91%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_video_record_s.c.o[0m
+[19.114s] [ 92%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_param_vec_s.c.o[0m
+[19.114s] [ 92%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_joint_wrench_s.c.o[0m
+[19.114s] [ 93%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_light_s.c.o[0m
+[19.114s] [ 93%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_sensor_noise_s.c.o[0m
+[19.114s] [ 94%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_string_vec_s.c.o[0m
+[19.114s] [ 95%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_control_world_s.c.o[0m
+[19.114s] [ 95%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_world_reset_s.c.o[0m
+[19.115s] [ 95%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_track_visual_s.c.o[0m
+[19.116s] [ 95%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_world_control_s.c.o[0m
+[19.229s] [ 96%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_delete_entity_s.c.o[0m
+[19.229s] [ 96%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_set_entity_pose_s.c.o[0m
+[19.233s] [ 97%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_spawn_entity_s.c.o[0m
+[19.313s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ros_gz_interfaces/libros_gz_interfaces__rosidl_generator_py.so[0m
+[19.347s] [ 97%] Built target ros_gz_interfaces__rosidl_generator_py
+[19.362s] [ 98%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[19.363s] [100%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[19.363s] [100%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[19.467s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.468s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.469s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.498s] [100%] Built target ros_gz_interfaces__rosidl_typesupport_c__pyext
+[19.498s] [100%] Built target ros_gz_interfaces__rosidl_typesupport_introspection_c__pyext
+[19.499s] [100%] Built target ros_gz_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[19.509s] Invoked command in '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_interfaces -- -j20 -l20
+[19.510s] Invoking command in '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_interfaces
+[19.515s] -- Install configuration: ""
+[19.516s] -- Execute custom install script
+[19.516s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ament_index/resource_index/rosidl_interfaces/ros_gz_interfaces
+[19.522s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/altimeter.h
+[19.527s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/contact.h
+[19.534s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/contacts.h
+[19.539s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/dataframe.h
+[19.545s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__functions.h
+[19.550s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__struct.h
+[19.556s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__type_support.h
+[19.561s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__functions.h
+[19.566s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__struct.h
+[19.571s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__type_support.h
+[19.577s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__functions.h
+[19.582s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__struct.h
+[19.587s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__type_support.h
+[19.594s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__functions.h
+[19.599s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__struct.h
+[19.604s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__type_support.h
+[19.609s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__functions.h
+[19.615s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__struct.h
+[19.621s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__type_support.h
+[19.627s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__functions.h
+[19.633s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__struct.h
+[19.639s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__type_support.h
+[19.645s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__functions.h
+[19.651s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__struct.h
+[19.657s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__type_support.h
+[19.663s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__functions.h
+[19.669s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__struct.h
+[19.673s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__type_support.h
+[19.678s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__functions.h
+[19.683s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__struct.h
+[19.688s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__type_support.h
+[19.692s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__functions.h
+[19.697s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__struct.h
+[19.703s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__type_support.h
+[19.708s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__functions.h
+[19.713s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__struct.h
+[19.718s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__type_support.h
+[19.724s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__functions.h
+[19.730s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__struct.h
+[19.737s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__type_support.h
+[19.743s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__functions.h
+[19.749s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__struct.h
+[19.754s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__type_support.h
+[19.760s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__functions.h
+[19.765s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__struct.h
+[19.770s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__type_support.h
+[19.775s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__functions.h
+[19.781s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__struct.h
+[19.785s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__type_support.h
+[19.791s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__functions.h
+[19.796s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__struct.h
+[19.801s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__type_support.h
+[19.807s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__functions.h
+[19.812s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__struct.h
+[19.817s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__type_support.h
+[19.824s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__functions.h
+[19.831s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__struct.h
+[19.837s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__type_support.h
+[19.844s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__functions.h
+[19.849s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__struct.h
+[19.855s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__type_support.h
+[19.859s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity.h
+[19.866s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity_factory.h
+[19.873s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity_wrench.h
+[19.880s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/float32_array.h
+[19.886s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/gui_camera.h
+[19.892s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/joint_wrench.h
+[19.898s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/light.h
+[19.903s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/material_color.h
+[19.908s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/param_vec.h
+[19.915s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/rosidl_generator_c__visibility_control.h
+[19.921s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/sensor_noise.h
+[19.926s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/string_vec.h
+[19.931s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/track_visual.h
+[19.936s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/video_record.h
+[19.942s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/world_control.h
+[19.946s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/world_reset.h
+[19.952s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/control_world.h
+[19.958s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/delete_entity.h
+[19.962s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__functions.h
+[19.968s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__struct.h
+[19.974s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__type_support.h
+[19.980s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__functions.h
+[19.986s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__struct.h
+[19.991s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__type_support.h
+[19.996s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__functions.h
+[20.002s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__struct.h
+[20.006s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__type_support.h
+[20.013s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__functions.h
+[20.018s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__struct.h
+[20.025s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__type_support.h
+[20.029s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/set_entity_pose.h
+[20.035s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/spawn_entity.h
+[20.039s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/library_path.sh
+[20.044s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/library_path.dsv
+[20.050s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__rosidl_typesupport_fastrtps_c.h
+[20.055s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__rosidl_typesupport_fastrtps_c.h
+[20.060s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__rosidl_typesupport_fastrtps_c.h
+[20.065s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__rosidl_typesupport_fastrtps_c.h
+[20.070s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__rosidl_typesupport_fastrtps_c.h
+[20.075s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__rosidl_typesupport_fastrtps_c.h
+[20.080s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__rosidl_typesupport_fastrtps_c.h
+[20.086s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__rosidl_typesupport_fastrtps_c.h
+[20.092s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__rosidl_typesupport_fastrtps_c.h
+[20.098s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__rosidl_typesupport_fastrtps_c.h
+[20.105s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__rosidl_typesupport_fastrtps_c.h
+[20.111s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__rosidl_typesupport_fastrtps_c.h
+[20.118s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__rosidl_typesupport_fastrtps_c.h
+[20.123s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__rosidl_typesupport_fastrtps_c.h
+[20.128s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__rosidl_typesupport_fastrtps_c.h
+[20.132s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__rosidl_typesupport_fastrtps_c.h
+[20.138s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__rosidl_typesupport_fastrtps_c.h
+[20.143s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__rosidl_typesupport_fastrtps_c.h
+[20.148s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__rosidl_typesupport_fastrtps_c.h
+[20.153s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[20.160s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__rosidl_typesupport_fastrtps_c.h
+[20.166s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__rosidl_typesupport_fastrtps_c.h
+[20.171s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_fastrtps_c.h
+[20.177s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__rosidl_typesupport_fastrtps_c.h
+[20.184s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/altimeter.hpp
+[20.189s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/contact.hpp
+[20.195s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/contacts.hpp
+[20.199s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/dataframe.hpp
+[20.206s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__builder.hpp
+[20.212s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__struct.hpp
+[20.217s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__traits.hpp
+[20.222s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__type_support.hpp
+[20.227s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__builder.hpp
+[20.233s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__struct.hpp
+[20.239s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__traits.hpp
+[20.244s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__type_support.hpp
+[20.249s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__builder.hpp
+[20.253s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__struct.hpp
+[20.260s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__traits.hpp
+[20.265s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__type_support.hpp
+[20.271s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__builder.hpp
+[20.276s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__struct.hpp
+[20.283s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__traits.hpp
+[20.289s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__type_support.hpp
+[20.296s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__builder.hpp
+[20.300s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__struct.hpp
+[20.305s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__traits.hpp
+[20.310s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__type_support.hpp
+[20.315s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__builder.hpp
+[20.320s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__struct.hpp
+[20.324s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__traits.hpp
+[20.331s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__type_support.hpp
+[20.338s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__builder.hpp
+[20.343s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__struct.hpp
+[20.348s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__traits.hpp
+[20.355s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__type_support.hpp
+[20.361s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__builder.hpp
+[20.367s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__struct.hpp
+[20.371s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__traits.hpp
+[20.377s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__type_support.hpp
+[20.383s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__builder.hpp
+[20.389s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__struct.hpp
+[20.394s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__traits.hpp
+[20.399s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__type_support.hpp
+[20.405s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__builder.hpp
+[20.410s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__struct.hpp
+[20.417s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__traits.hpp
+[20.423s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__type_support.hpp
+[20.429s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__builder.hpp
+[20.435s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__struct.hpp
+[20.440s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__traits.hpp
+[20.446s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__type_support.hpp
+[20.452s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__builder.hpp
+[20.459s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__struct.hpp
+[20.464s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__traits.hpp
+[20.470s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__type_support.hpp
+[20.475s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__builder.hpp
+[20.483s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__struct.hpp
+[20.489s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__traits.hpp
+[20.496s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__type_support.hpp
+[20.501s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__builder.hpp
+[20.507s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__struct.hpp
+[20.513s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__traits.hpp
+[20.519s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__type_support.hpp
+[20.525s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__builder.hpp
+[20.532s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__struct.hpp
+[20.538s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__traits.hpp
+[20.545s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__type_support.hpp
+[20.551s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__builder.hpp
+[20.556s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__struct.hpp
+[20.562s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__traits.hpp
+[20.567s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__type_support.hpp
+[20.574s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__builder.hpp
+[20.580s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__struct.hpp
+[20.586s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__traits.hpp
+[20.592s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__type_support.hpp
+[20.598s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__builder.hpp
+[20.604s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__struct.hpp
+[20.609s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__traits.hpp
+[20.614s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__type_support.hpp
+[20.621s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__builder.hpp
+[20.626s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__struct.hpp
+[20.631s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__traits.hpp
+[20.637s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__type_support.hpp
+[20.643s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity.hpp
+[20.649s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity_factory.hpp
+[20.655s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity_wrench.hpp
+[20.661s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/float32_array.hpp
+[20.666s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/gui_camera.hpp
+[20.672s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/joint_wrench.hpp
+[20.677s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/light.hpp
+[20.683s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/material_color.hpp
+[20.689s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/param_vec.hpp
+[20.697s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[20.704s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/sensor_noise.hpp
+[20.710s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/string_vec.hpp
+[20.716s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/track_visual.hpp
+[20.722s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/video_record.hpp
+[20.729s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/world_control.hpp
+[20.734s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/world_reset.hpp
+[20.741s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/control_world.hpp
+[20.747s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/delete_entity.hpp
+[20.752s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__builder.hpp
+[20.759s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__struct.hpp
+[20.764s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__traits.hpp
+[20.771s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__type_support.hpp
+[20.776s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__builder.hpp
+[20.783s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__struct.hpp
+[20.789s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__traits.hpp
+[20.795s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__type_support.hpp
+[20.802s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__builder.hpp
+[20.807s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__struct.hpp
+[20.814s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__traits.hpp
+[20.820s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__type_support.hpp
+[20.825s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__builder.hpp
+[20.831s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__struct.hpp
+[20.837s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__traits.hpp
+[20.842s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__type_support.hpp
+[20.848s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/set_entity_pose.hpp
+[20.853s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/spawn_entity.hpp
+[20.859s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__rosidl_typesupport_fastrtps_cpp.hpp
+[20.864s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__rosidl_typesupport_fastrtps_cpp.hpp
+[20.871s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__rosidl_typesupport_fastrtps_cpp.hpp
+[20.877s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__rosidl_typesupport_fastrtps_cpp.hpp
+[20.881s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
+[20.888s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__rosidl_typesupport_fastrtps_cpp.hpp
+[20.893s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__rosidl_typesupport_fastrtps_cpp.hpp
+[20.898s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__rosidl_typesupport_fastrtps_cpp.hpp
+[20.904s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__rosidl_typesupport_fastrtps_cpp.hpp
+[20.910s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__rosidl_typesupport_fastrtps_cpp.hpp
+[20.915s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__rosidl_typesupport_fastrtps_cpp.hpp
+[20.920s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__rosidl_typesupport_fastrtps_cpp.hpp
+[20.926s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__rosidl_typesupport_fastrtps_cpp.hpp
+[20.932s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__rosidl_typesupport_fastrtps_cpp.hpp
+[20.938s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__rosidl_typesupport_fastrtps_cpp.hpp
+[20.945s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__rosidl_typesupport_fastrtps_cpp.hpp
+[20.950s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__rosidl_typesupport_fastrtps_cpp.hpp
+[20.957s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__rosidl_typesupport_fastrtps_cpp.hpp
+[20.963s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__rosidl_typesupport_fastrtps_cpp.hpp
+[20.968s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[20.973s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__rosidl_typesupport_fastrtps_cpp.hpp
+[20.979s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__rosidl_typesupport_fastrtps_cpp.hpp
+[20.984s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[20.990s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__rosidl_typesupport_fastrtps_cpp.hpp
+[20.998s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__rosidl_typesupport_introspection_c.h
+[21.004s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__rosidl_typesupport_introspection_c.h
+[21.011s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__rosidl_typesupport_introspection_c.h
+[21.018s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__rosidl_typesupport_introspection_c.h
+[21.025s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__rosidl_typesupport_introspection_c.h
+[21.030s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__rosidl_typesupport_introspection_c.h
+[21.035s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__rosidl_typesupport_introspection_c.h
+[21.042s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__rosidl_typesupport_introspection_c.h
+[21.049s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__rosidl_typesupport_introspection_c.h
+[21.055s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__rosidl_typesupport_introspection_c.h
+[21.061s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__rosidl_typesupport_introspection_c.h
+[21.068s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__rosidl_typesupport_introspection_c.h
+[21.074s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__rosidl_typesupport_introspection_c.h
+[21.080s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__rosidl_typesupport_introspection_c.h
+[21.087s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__rosidl_typesupport_introspection_c.h
+[21.093s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__rosidl_typesupport_introspection_c.h
+[21.098s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__rosidl_typesupport_introspection_c.h
+[21.105s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__rosidl_typesupport_introspection_c.h
+[21.112s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__rosidl_typesupport_introspection_c.h
+[21.119s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[21.126s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__rosidl_typesupport_introspection_c.h
+[21.132s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__rosidl_typesupport_introspection_c.h
+[21.137s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_introspection_c.h
+[21.143s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__rosidl_typesupport_introspection_c.h
+[21.149s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__rosidl_typesupport_introspection_cpp.hpp
+[21.154s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__rosidl_typesupport_introspection_cpp.hpp
+[21.159s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__rosidl_typesupport_introspection_cpp.hpp
+[21.166s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__rosidl_typesupport_introspection_cpp.hpp
+[21.172s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp
+[21.177s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__rosidl_typesupport_introspection_cpp.hpp
+[21.183s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__rosidl_typesupport_introspection_cpp.hpp
+[21.188s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__rosidl_typesupport_introspection_cpp.hpp
+[21.194s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__rosidl_typesupport_introspection_cpp.hpp
+[21.200s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__rosidl_typesupport_introspection_cpp.hpp
+[21.207s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__rosidl_typesupport_introspection_cpp.hpp
+[21.212s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__rosidl_typesupport_introspection_cpp.hpp
+[21.217s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__rosidl_typesupport_introspection_cpp.hpp
+[21.222s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__rosidl_typesupport_introspection_cpp.hpp
+[21.228s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__rosidl_typesupport_introspection_cpp.hpp
+[21.235s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__rosidl_typesupport_introspection_cpp.hpp
+[21.241s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__rosidl_typesupport_introspection_cpp.hpp
+[21.247s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__rosidl_typesupport_introspection_cpp.hpp
+[21.252s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__rosidl_typesupport_introspection_cpp.hpp
+[21.258s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__rosidl_typesupport_introspection_cpp.hpp
+[21.262s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__rosidl_typesupport_introspection_cpp.hpp
+[21.268s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_introspection_cpp.hpp
+[21.275s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__rosidl_typesupport_introspection_cpp.hpp
+[21.281s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/pythonpath.sh
+[21.286s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/pythonpath.dsv
+[21.294s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces-0.244.16-py3.10.egg-info/PKG-INFO
+[21.298s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces-0.244.16-py3.10.egg-info/SOURCES.txt
+[21.303s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces-0.244.16-py3.10.egg-info/dependency_links.txt
+[21.309s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces-0.244.16-py3.10.egg-info/top_level.txt
+[21.314s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/__init__.py
+[21.320s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_c.c
+[21.325s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[21.330s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[21.336s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/libros_gz_interfaces__rosidl_generator_py.so
+[21.343s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/__init__.py
+[21.349s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_altimeter.py
+[21.354s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_altimeter_s.c
+[21.359s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_contact.py
+[21.364s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_contact_s.c
+[21.370s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_contacts.py
+[21.377s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_contacts_s.c
+[21.383s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_dataframe.py
+[21.389s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_dataframe_s.c
+[21.394s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity.py
+[21.400s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity_factory.py
+[21.404s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity_factory_s.c
+[21.409s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity_s.c
+[21.415s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity_wrench.py
+[21.420s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity_wrench_s.c
+[21.426s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_float32_array.py
+[21.431s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_float32_array_s.c
+[21.437s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_gui_camera.py
+[21.444s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_gui_camera_s.c
+[21.450s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_joint_wrench.py
+[21.457s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_joint_wrench_s.c
+[21.461s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_light.py
+[21.468s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_light_s.c
+[21.473s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_material_color.py
+[21.478s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_material_color_s.c
+[21.485s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_param_vec.py
+[21.491s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_param_vec_s.c
+[21.498s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_sensor_noise.py
+[21.503s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_sensor_noise_s.c
+[21.508s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_string_vec.py
+[21.515s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_string_vec_s.c
+[21.519s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_track_visual.py
+[21.526s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_track_visual_s.c
+[21.531s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_video_record.py
+[21.536s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_video_record_s.c
+[21.543s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_world_control.py
+[21.550s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_world_control_s.c
+[21.558s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_world_reset.py
+[21.564s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_world_reset_s.c
+[21.568s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[21.573s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[21.578s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[21.588s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/__init__.py
+[21.597s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_control_world.py
+[21.606s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_control_world_s.c
+[21.616s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_delete_entity.py
+[21.629s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_delete_entity_s.c
+[21.633s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_set_entity_pose.py
+[21.644s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_set_entity_pose_s.c
+[21.654s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_spawn_entity.py
+[21.665s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_spawn_entity_s.c
+[21.676s] -- Up-to-date symlink: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[21.677s] -- Up-to-date symlink: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[21.678s] -- Up-to-date symlink: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[21.678s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Altimeter.idl
+[21.689s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Contact.idl
+[21.702s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Contacts.idl
+[21.710s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Dataframe.idl
+[21.719s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Entity.idl
+[21.728s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/EntityFactory.idl
+[21.734s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/EntityWrench.idl
+[21.740s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Float32Array.idl
+[21.746s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/GuiCamera.idl
+[21.751s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/JointWrench.idl
+[21.758s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Light.idl
+[21.765s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/MaterialColor.idl
+[21.771s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/ParamVec.idl
+[21.777s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/SensorNoise.idl
+[21.784s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/StringVec.idl
+[21.790s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/TrackVisual.idl
+[21.795s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/VideoRecord.idl
+[21.801s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/WorldControl.idl
+[21.805s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/WorldReset.idl
+[21.810s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/ControlWorld.idl
+[21.815s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/DeleteEntity.idl
+[21.820s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SetEntityPose.idl
+[21.825s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SpawnEntity.idl
+[21.830s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Altimeter.msg
+[21.836s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Contact.msg
+[21.841s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Contacts.msg
+[21.847s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Dataframe.msg
+[21.853s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Entity.msg
+[21.859s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/EntityFactory.msg
+[21.865s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/EntityWrench.msg
+[21.870s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Float32Array.msg
+[21.876s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/GuiCamera.msg
+[21.881s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/JointWrench.msg
+[21.886s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Light.msg
+[21.893s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/MaterialColor.msg
+[21.899s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/ParamVec.msg
+[21.904s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/SensorNoise.msg
+[21.910s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/StringVec.msg
+[21.915s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/TrackVisual.msg
+[21.921s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/VideoRecord.msg
+[21.928s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/WorldControl.msg
+[21.933s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/WorldReset.msg
+[21.939s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/ControlWorld.srv
+[21.944s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/ControlWorld_Request.msg
+[21.950s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/ControlWorld_Response.msg
+[21.955s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/DeleteEntity.srv
+[21.960s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/DeleteEntity_Request.msg
+[21.967s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/DeleteEntity_Response.msg
+[21.973s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SetEntityPose.srv
+[21.979s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SetEntityPose_Request.msg
+[21.985s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SetEntityPose_Response.msg
+[21.990s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SpawnEntity.srv
+[21.995s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SpawnEntity_Request.msg
+[22.002s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SpawnEntity_Response.msg
+[22.008s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ament_index/resource_index/package_run_dependencies/ros_gz_interfaces
+[22.013s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ament_index/resource_index/parent_prefix_path/ros_gz_interfaces
+[22.019s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/ament_prefix_path.sh
+[22.025s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/ament_prefix_path.dsv
+[22.031s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/path.sh
+[22.038s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/path.dsv
+[22.044s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/local_setup.bash
+[22.049s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/local_setup.sh
+[22.054s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/local_setup.zsh
+[22.059s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/local_setup.dsv
+[22.064s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/package.dsv
+[22.069s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ament_index/resource_index/packages/ros_gz_interfaces
+[22.074s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/rosidl_cmake-extras.cmake
+[22.078s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.085s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.088s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[22.093s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[22.098s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[22.104s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[22.110s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfacesConfig.cmake
+[22.115s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfacesConfig-version.cmake
+[22.120s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/package.xml
+[22.127s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_generator_c.so
+[22.128s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_generator_c.so" to ""
+[22.128s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_fastrtps_c.so
+[22.128s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[22.128s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[22.129s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[22.129s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_introspection_c.so
+[22.129s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[22.129s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_c.so
+[22.129s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_c.so" to ""
+[22.129s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_introspection_cpp.so
+[22.130s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[22.130s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_cpp.so
+[22.130s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_cpp.so" to ""
+[22.167s] Listing '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces'...
+[22.167s] Compiling '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/__init__.py'...
+[22.167s] Listing '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg'...
+[22.167s] Compiling '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/__init__.py'...
+[22.167s] Compiling '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_altimeter.py'...
+[22.167s] Compiling '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_contact.py'...
+[22.168s] Compiling '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_contacts.py'...
+[22.168s] Compiling '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_dataframe.py'...
+[22.168s] Compiling '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity.py'...
+[22.168s] Compiling '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity_factory.py'...
+[22.168s] Compiling '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity_wrench.py'...
+[22.168s] Compiling '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_float32_array.py'...
+[22.168s] Compiling '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_gui_camera.py'...
+[22.168s] Compiling '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_joint_wrench.py'...
+[22.168s] Compiling '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_light.py'...
+[22.168s] Compiling '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_material_color.py'...
+[22.168s] Compiling '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_param_vec.py'...
+[22.168s] Compiling '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_sensor_noise.py'...
+[22.168s] Compiling '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_string_vec.py'...
+[22.168s] Compiling '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_track_visual.py'...
+[22.168s] Compiling '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_video_record.py'...
+[22.168s] Compiling '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_world_control.py'...
+[22.168s] Compiling '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_world_reset.py'...
+[22.168s] Listing '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv'...
+[22.168s] Compiling '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/__init__.py'...
+[22.168s] Compiling '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_control_world.py'...
+[22.168s] Compiling '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_delete_entity.py'...
+[22.168s] Compiling '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_set_entity_pose.py'...
+[22.168s] Compiling '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_spawn_entity.py'...
+[22.170s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_generator_py.so
+[22.170s] -- Set runtime path of "/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_generator_py.so" to ""
+[22.171s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_generator_cExport.cmake
+[22.171s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_generator_cExport-noconfig.cmake
+[22.171s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[22.171s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[22.171s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_generator_cppExport.cmake
+[22.171s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[22.171s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[22.171s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[22.171s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[22.171s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_cExport.cmake
+[22.171s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[22.171s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[22.171s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[22.171s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_cppExport.cmake
+[22.171s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[22.171s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_generator_pyExport.cmake
+[22.171s] -- Installing: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[22.173s] Invoked command in '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_interfaces

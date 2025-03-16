@@ -1,3 +1,1 @@
-ros_gz_interfaces/EntityFactory entity_factory  # Message to create a new entity
----
-bool success                                     # Return true if spawned successfully.
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros_gz/ros_ign_interfaces/srv/SpawnEntity.srv

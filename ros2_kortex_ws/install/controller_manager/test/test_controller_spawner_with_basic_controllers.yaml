@@ -1,13 +1,1 @@
-ctrl_1:
-  ros__parameters:
-    joint_names: ["joint1"]
-
-ctrl_2:
-  ros__parameters:
-    joint_names: ["joint2"]
-    fallback_controllers: ["ctrl_6", "ctrl_7", "ctrl_8"]
-
-ctrl_3:
-  ros__parameters:
-    joint_names: ["joint3"]
-    fallback_controllers: ["ctrl_9"]
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros2_control/controller_manager/test/test_controller_spawner_with_basic_controllers.yaml

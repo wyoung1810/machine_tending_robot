@@ -1,9 +1,1 @@
-<library path="test_controller_failed_init">
-
-  <class name="controller_manager/test_controller_failed_init" type="test_controller_failed_init::TestControllerFailedInit" base_class_type="controller_interface::ControllerInterface">
-    <description>
-      Controller used for testing
-    </description>
-  </class>
-
-</library>
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros2_control/controller_manager/test/test_controller_failed_init/test_controller_failed_init.xml

@@ -1,3 +1,1 @@
-string name
-bool is_available
-bool is_claimed
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros2_control/controller_manager_msgs/msg/HardwareInterface.msg

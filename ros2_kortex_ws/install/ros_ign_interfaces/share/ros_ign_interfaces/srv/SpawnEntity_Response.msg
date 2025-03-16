@@ -1,2 +1,1 @@
-
-bool success                                     # Return true if spawned successfully.
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_ign_interfaces/rosidl_cmake/srv/SpawnEntity_Response.msg

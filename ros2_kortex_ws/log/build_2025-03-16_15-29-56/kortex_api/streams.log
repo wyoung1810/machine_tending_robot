@@ -1,0 +1,206 @@
+[0.016s] Invoking command in '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/kortex_api': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros2_kortex/kortex_api -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api
+[2.759s] -- The C compiler identification is GNU 11.4.0
+[2.819s] -- The CXX compiler identification is GNU 11.4.0
+[2.827s] -- Detecting C compiler ABI info
+[2.896s] -- Detecting C compiler ABI info - done
+[2.904s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.905s] -- Detecting C compile features
+[2.905s] -- Detecting C compile features - done
+[2.908s] -- Detecting CXX compiler ABI info
+[2.996s] -- Detecting CXX compiler ABI info - done
+[3.008s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.008s] -- Detecting CXX compile features
+[3.008s] -- Detecting CXX compile features - done
+[3.011s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.212s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.294s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.400s] -- Configuring done
+[3.403s] -- Generating done
+[3.405s] -- Build files have been written to: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/kortex_api
+[3.410s] Invoked command in '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/kortex_api' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros2_kortex/kortex_api -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api
+[3.412s] Invoking command in '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/kortex_api': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/kortex_api -- -j20 -l20
+[3.450s] Invoked command in '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/kortex_api' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/kortex_api -- -j20 -l20
+[3.451s] Invoking command in '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/kortex_api': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/kortex_api
+[3.458s] -- Install configuration: ""
+[3.459s] -- Execute custom install script
+[3.459s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/FrameHandler.h
+[3.468s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/IRouterClient.h
+[3.477s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/ITransportClient.h
+[3.486s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/NotificationHandler.h
+[3.495s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/RouterClient.h
+[3.502s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/SessionManager.h
+[3.512s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/TransportClientTcp.h
+[3.523s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/TransportClientUdp.h
+[3.534s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/version.h
+[3.544s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/Frame.h
+[3.553s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/HeaderInfo.h
+[3.566s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/KBasicException.h
+[3.595s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/KDetailedException.h
+[3.616s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/KError.h
+[3.636s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/KinovaTcpUtilities.h
+[3.654s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/TransportBridgeDummy.h
+[3.673s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/version.h
+[3.693s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/ActuatorConfig.pb.h
+[3.714s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/ActuatorCyclic.pb.h
+[3.734s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/Base.pb.h
+[3.754s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/BaseCyclic.pb.h
+[3.774s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/Common.pb.h
+[3.794s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/ControlConfig.pb.h
+[3.816s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/DeviceConfig.pb.h
+[3.828s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/DeviceManager.pb.h
+[3.844s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/Errors.pb.h
+[3.868s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/Frame.pb.h
+[3.885s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/GripperConfig.pb.h
+[3.904s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/GripperCyclic.pb.h
+[3.924s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/GripperCyclicMessage.pb.h
+[3.943s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/InterconnectConfig.pb.h
+[3.961s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/InterconnectCyclic.pb.h
+[3.980s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/InterconnectCyclicMessage.pb.h
+[3.999s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/ProductConfiguration.pb.h
+[4.011s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/Session.pb.h
+[4.030s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/Test.pb.h
+[4.049s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/VisionConfig.pb.h
+[4.071s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/ActuatorConfigClientRpc.h
+[4.087s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/ActuatorCyclicClientRpc.h
+[4.105s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/BaseClientRpc.h
+[4.126s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/BaseCyclicClientRpc.h
+[4.136s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/ControlConfigClientRpc.h
+[4.155s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/DeviceConfigClientRpc.h
+[4.172s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/DeviceManagerClientRpc.h
+[4.191s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/GripperCyclicClientRpc.h
+[4.212s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/InterconnectConfigClientRpc.h
+[4.230s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/InterconnectCyclicClientRpc.h
+[4.248s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/SessionClientRpc.h
+[4.267s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/TestClientRpc.h
+[4.282s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/VisionConfigClientRpc.h
+[4.308s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/any.h
+[4.325s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/any.pb.h
+[4.344s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/api.pb.h
+[4.359s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/arena.h
+[4.380s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/arena_impl.h
+[4.400s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/arenastring.h
+[4.419s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/code_generator.h
+[4.439s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/command_line_interface.h
+[4.468s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/cpp/cpp_generator.h
+[4.486s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/csharp/csharp_generator.h
+[4.507s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/csharp/csharp_names.h
+[4.536s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/importer.h
+[4.555s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/java/java_generator.h
+[4.573s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/java/java_names.h
+[4.593s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/javanano/javanano_generator.h
+[4.614s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/js/js_generator.h
+[4.630s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/js/well_known_types_embed.h
+[4.653s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/objectivec/objectivec_generator.h
+[4.670s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/objectivec/objectivec_helpers.h
+[4.694s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/parser.h
+[4.715s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/php/php_generator.h
+[4.734s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/plugin.h
+[4.750s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/plugin.pb.h
+[4.768s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/python/python_generator.h
+[4.798s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/ruby/ruby_generator.h
+[4.820s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/descriptor.h
+[4.844s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/descriptor.pb.h
+[4.865s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/descriptor_database.h
+[4.883s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/duration.pb.h
+[4.909s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/dynamic_message.h
+[4.932s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/empty.pb.h
+[4.958s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/extension_set.h
+[4.983s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/field_mask.pb.h
+[5.008s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/generated_enum_reflection.h
+[5.026s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/generated_enum_util.h
+[5.060s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/generated_message_reflection.h
+[5.080s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/generated_message_table_driven.h
+[5.100s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/generated_message_util.h
+[5.127s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/has_bits.h
+[5.149s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/io/coded_stream.h
+[5.168s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/io/gzip_stream.h
+[5.188s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/io/printer.h
+[5.213s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/io/strtod.h
+[5.232s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/io/tokenizer.h
+[5.256s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/io/zero_copy_stream.h
+[5.273s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/io/zero_copy_stream_impl.h
+[5.294s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/io/zero_copy_stream_impl_lite.h
+[5.317s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/map.h
+[5.350s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/map_entry.h
+[5.370s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/map_entry_lite.h
+[5.388s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/map_field.h
+[5.408s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/map_field_inl.h
+[5.424s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/map_field_lite.h
+[5.448s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/map_type_handler.h
+[5.464s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/message.h
+[5.492s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/message_lite.h
+[5.505s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/metadata.h
+[5.531s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/metadata_lite.h
+[5.552s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/reflection.h
+[5.581s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/reflection_ops.h
+[5.601s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/repeated_field.h
+[5.622s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/service.h
+[5.644s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/source_context.pb.h
+[5.672s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/struct.pb.h
+[5.693s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomic_sequence_num.h
+[5.715s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops.h
+[5.734s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_arm64_gcc.h
+[5.758s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_arm_gcc.h
+[5.787s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_arm_qnx.h
+[5.816s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_generic_c11_atomic.h
+[5.845s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_generic_gcc.h
+[5.863s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_mips_gcc.h
+[5.892s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_power.h
+[5.920s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_ppc_gcc.h
+[5.948s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_solaris.h
+[5.970s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_tsan.h
+[5.986s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_x86_gcc.h
+[6.002s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_x86_msvc.h
+[6.037s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/bytestream.h
+[6.061s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/callback.h
+[6.078s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/casts.h
+[6.091s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/common.h
+[6.125s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/fastmem.h
+[6.155s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/hash.h
+[6.187s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/logging.h
+[6.213s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/macros.h
+[6.231s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/mutex.h
+[6.248s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/once.h
+[6.272s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/platform_macros.h
+[6.282s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/port.h
+[6.304s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/scoped_ptr.h
+[6.324s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/shared_ptr.h
+[6.350s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/singleton.h
+[6.368s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/status.h
+[6.395s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/stl_util.h
+[6.419s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/stringpiece.h
+[6.440s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/template_util.h
+[6.459s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/type_traits.h
+[6.478s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/text_format.h
+[6.514s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/timestamp.pb.h
+[6.557s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/type.pb.h
+[6.586s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/unknown_field_set.h
+[6.607s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/util/delimited_message_util.h
+[6.629s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/util/field_comparator.h
+[6.650s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/util/field_mask_util.h
+[6.666s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/util/json_util.h
+[6.695s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/util/message_differencer.h
+[6.715s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/util/time_util.h
+[6.743s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/util/type_resolver.h
+[6.753s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/util/type_resolver_util.h
+[6.777s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/wire_format.h
+[6.791s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/wire_format_lite.h
+[6.813s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/wire_format_lite_inl.h
+[6.832s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/include/kortex_api/google/protobuf/wrappers.pb.h
+[6.861s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/share/ament_index/resource_index/package_run_dependencies/kortex_api
+[6.880s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/share/ament_index/resource_index/parent_prefix_path/kortex_api
+[6.910s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/share/kortex_api/environment/ament_prefix_path.sh
+[6.935s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/share/kortex_api/environment/ament_prefix_path.dsv
+[6.959s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/share/kortex_api/environment/path.sh
+[6.995s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/share/kortex_api/environment/path.dsv
+[7.020s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/share/kortex_api/local_setup.bash
+[7.041s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/share/kortex_api/local_setup.sh
+[7.062s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/share/kortex_api/local_setup.zsh
+[7.085s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/share/kortex_api/local_setup.dsv
+[7.104s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/share/kortex_api/package.dsv
+[7.138s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/share/ament_index/resource_index/packages/kortex_api
+[7.159s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/share/kortex_api/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.187s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/share/kortex_api/cmake/kortex_apiConfig.cmake
+[7.204s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/share/kortex_api/cmake/kortex_apiConfig-version.cmake
+[7.224s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/kortex_api/share/kortex_api/package.xml
+[7.285s] Invoked command in '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/kortex_api' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/kortex_api

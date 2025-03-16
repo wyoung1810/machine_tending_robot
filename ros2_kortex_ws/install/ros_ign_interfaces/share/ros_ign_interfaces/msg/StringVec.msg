@@ -1,7 +1,1 @@
-# A message for a vector of string data.
-
-# Optional header data.
-std_msgs/Header header
-
-# The vector of strings.
-string[] data
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros_gz/ros_ign_interfaces/msg/StringVec.msg

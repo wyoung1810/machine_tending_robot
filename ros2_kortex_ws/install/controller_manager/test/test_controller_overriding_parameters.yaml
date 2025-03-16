@@ -1,5 +1,1 @@
-ctrl_with_parameters_and_type:
-  ros__parameters:
-    interface_name: "impedance"
-    joint_offset: 0.2
-    joint_names: ["joint10"]
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros2_control/controller_manager/test/test_controller_overriding_parameters.yaml

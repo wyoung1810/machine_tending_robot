@@ -1,2 +1,1 @@
-The 2F-85 gripper depends on the package maintained by [PickNik Robotics](https://github.com/PickNikRobotics/ros2_robotiq_gripper).
-The package's license file can also be found in this folder.
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros2_kortex/kortex_description/grippers/robotiq_2f_140/README.md

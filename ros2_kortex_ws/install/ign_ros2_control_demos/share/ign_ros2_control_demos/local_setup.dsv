@@ -1,2 +1,1 @@
-source;share/ign_ros2_control_demos/environment/ament_prefix_path.sh
-source;share/ign_ros2_control_demos/environment/path.sh
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ign_ros2_control_demos/ament_cmake_environment_hooks/local_setup.dsv

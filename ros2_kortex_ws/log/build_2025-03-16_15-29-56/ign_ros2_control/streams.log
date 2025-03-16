@@ -1,0 +1,291 @@
+[0.261s] Invoking command in '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ign_ros2_control': AMENT_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface_testing:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_interface:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros2_control_test_assets:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/realtime_tools:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager_msgs:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface_testing:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_interface:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros2_control_test_assets:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/realtime_tools:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager_msgs:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface_testing/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_interface/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/realtime_tools/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager_msgs/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/gz_ros2_control/ign_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control
+[3.591s] -- The C compiler identification is GNU 11.4.0
+[3.591s] -- The CXX compiler identification is GNU 11.4.0
+[3.591s] -- Detecting C compiler ABI info
+[3.592s] -- Detecting C compiler ABI info - done
+[3.592s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.592s] -- Detecting C compile features
+[3.595s] -- Detecting C compile features - done
+[3.596s] -- Detecting CXX compiler ABI info
+[3.596s] -- Detecting CXX compiler ABI info - done
+[3.596s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.597s] -- Detecting CXX compile features
+[3.597s] -- Detecting CXX compile features - done
+[3.597s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.598s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.598s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.598s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[3.602s] -- Found controller_manager: 2.48.0 (/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager/share/controller_manager/cmake)
+[3.602s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.602s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.603s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.603s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.603s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.604s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.604s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.604s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.605s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.605s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.605s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.605s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.611s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.611s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.612s] -- Looking for pthread.h
+[3.612s] -- Looking for pthread.h - found
+[3.612s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.613s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.613s] -- Found Threads: TRUE  
+[3.613s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[3.618s] -- Looking for ignition-gazebo6 -- found version 6.17.0
+[3.618s] -- Searching for dependencies of ignition-gazebo6
+[3.618s] -- Looking for sdformat12 -- found version 12.8.0
+[3.619s] -- Searching for dependencies of sdformat12
+[3.619s] -- Checking for module 'tinyxml2'
+[3.619s] --   Found tinyxml2, version 9.0.0
+[3.620s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.620s] -- Searching for dependencies of ignition-math6
+[3.620s] -- Looking for ignition-utils1 -- found version 1.5.1
+[3.620s] -- Searching for dependencies of ignition-utils1
+[3.626s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[3.626s] -- Searching for dependencies of ignition-plugin1
+[3.626s] -- Searching for <ignition-plugin1> component [loader]
+[3.627s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[3.627s] -- Searching for dependencies of ignition-plugin1-loader
+[3.627s] -- Searching for <ignition-plugin1> component [register]
+[3.628s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[3.628s] -- Searching for dependencies of ignition-plugin1-register
+[3.628s] -- Looking for ignition-transport11 -- found version 11.4.1
+[3.629s] -- Searching for dependencies of ignition-transport11
+[3.629s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[3.629s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.629s] -- Checking for module 'libzmq >= 4'
+[3.630s] --   Found libzmq , version 4.3.4
+[3.630s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[3.630s] -- Checking for module 'uuid'
+[3.631s] --   Found uuid, version 2.37.2
+[3.631s] -- Found UUID: TRUE  
+[3.631s] -- Looking for ignition-utils1 -- found version 1.5.1
+[3.631s] -- Searching for dependencies of ignition-utils1
+[3.632s] -- Searching for <ignition-utils1> component [cli]
+[3.632s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[3.632s] -- Searching for dependencies of ignition-utils1-cli
+[3.637s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[3.637s] -- Searching for dependencies of ignition-msgs8
+[3.637s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[3.663s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.663s] -- Searching for <ignition-transport11> component [log]
+[3.664s] -- Looking for ignition-transport11-log -- found version 11.4.1
+[3.664s] -- Searching for dependencies of ignition-transport11-log
+[3.664s] -- Searching for <ignition-transport11> component [parameters]
+[3.665s] -- Looking for ignition-transport11-parameters -- found version 11.4.1
+[3.665s] -- Searching for dependencies of ignition-transport11-parameters
+[3.666s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[3.666s] -- Looking for ignition-common4 -- found version 4.7.0
+[3.666s] -- Searching for dependencies of ignition-common4
+[3.677s] -- Looking for dlfcn.h - found
+[3.677s] -- Looking for libdl - found
+[3.677s] -- Found DL: TRUE  
+[3.678s] -- Searching for <ignition-common4> component [profiler]
+[3.678s] -- Looking for ignition-common4-profiler -- found version 4.7.0
+[3.678s] -- Searching for dependencies of ignition-common4-profiler
+[3.679s] -- Searching for <ignition-common4> component [events]
+[3.679s] -- Looking for ignition-common4-events -- found version 4.7.0
+[3.679s] -- Searching for dependencies of ignition-common4-events
+[3.680s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.680s] -- Searching for <ignition-common4> component [av]
+[3.680s] -- Looking for ignition-common4-av -- found version 4.7.0
+[3.684s] -- Searching for dependencies of ignition-common4-av
+[3.685s] -- Checking for module 'libswscale'
+[3.685s] --   Found libswscale, version 5.9.100
+[3.686s] -- Found SWSCALE: TRUE  
+[3.686s] -- Checking for module 'libavdevice >= 56.4.100'
+[3.686s] --   Found libavdevice , version 58.13.100
+[3.818s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[3.865s] -- Checking for module 'libavformat'
+[3.982s] --   Found libavformat, version 58.76.100
+[4.109s] -- Found AVFORMAT: TRUE  
+[4.111s] -- Checking for module 'libavcodec'
+[4.166s] --   Found libavcodec, version 58.134.100
+[4.328s] -- Found AVCODEC: TRUE  
+[4.357s] -- Checking for module 'libavutil'
+[4.414s] --   Found libavutil, version 56.70.100
+[4.575s] -- Found AVUTIL: TRUE  
+[4.608s] -- Looking for ignition-fuel_tools7 -- found version 7.3.1
+[4.615s] -- Searching for dependencies of ignition-fuel_tools7
+[5.202s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[5.234s] -- Checking for module 'jsoncpp'
+[5.277s] --   Found jsoncpp, version 1.9.5
+[5.387s] -- Found JSONCPP: TRUE  
+[5.409s] -- Checking for module 'libzip'
+[5.469s] --   Found libzip, version 1.7.3
+[5.655s] -- Found ZIP: TRUE  
+[5.656s] -- Looking for ignition-common4 -- found version 4.7.0
+[5.657s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.658s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[5.685s] -- Looking for ignition-gui6 -- found version 6.8.0
+[5.685s] -- Searching for dependencies of ignition-gui6
+[5.854s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.854s] -- Looking for ignition-common4 -- found version 4.7.0
+[5.855s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[5.855s] -- Looking for ignition-transport11 -- found version 11.4.1
+[5.889s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[5.889s] -- Searching for dependencies of ignition-rendering6
+[5.889s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.889s] -- Searching for dependencies of ignition-math6
+[5.889s] -- Searching for <ignition-math6> component [eigen3]
+[5.904s] -- Looking for ignition-math6-eigen3 -- found version 6.15.1
+[5.904s] -- Searching for dependencies of ignition-math6-eigen3
+[5.972s] -- Looking for ignition-common4 -- found version 4.7.0
+[5.976s] -- Searching for dependencies of ignition-common4
+[5.976s] -- Looking for dlfcn.h - found
+[5.976s] -- Looking for libdl - found
+[6.036s] -- Searching for <ignition-common4> component [graphics]
+[6.045s] -- Looking for ignition-common4-graphics -- found version 4.7.0
+[6.054s] -- Searching for dependencies of ignition-common4-graphics
+[6.054s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.059s] -- Looking for ignition-utils1 -- found version 1.5.1
+[6.064s] -- Searching for <ignition-common4> component [events]
+[6.072s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[6.073s] -- Searching for dependencies of ignition-plugin1
+[6.073s] -- Searching for <ignition-plugin1> component [all]
+[6.087s] -- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+[6.088s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[6.123s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[6.275s] -- Looking for ignition-physics5 -- found version 5.3.2
+[6.276s] -- Searching for dependencies of ignition-physics5
+[6.281s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.286s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[6.287s] -- Looking for ignition-utils1 -- found version 1.5.1
+[6.289s] -- Searching for <ignition-physics5> component [heightmap]
+[6.314s] -- Looking for ignition-physics5-heightmap -- found version 5.3.2
+[6.317s] -- Searching for dependencies of ignition-physics5-heightmap
+[6.317s] -- Looking for ignition-common4 -- found version 4.7.0
+[6.320s] -- Searching for <ignition-physics5> component [mesh]
+[6.350s] -- Looking for ignition-physics5-mesh -- found version 5.3.2
+[6.350s] -- Searching for dependencies of ignition-physics5-mesh
+[6.350s] -- Looking for ignition-common4 -- found version 4.7.0
+[6.350s] -- Searching for <ignition-physics5> component [sdf]
+[6.363s] -- Looking for ignition-physics5-sdf -- found version 5.3.2
+[6.385s] -- Searching for dependencies of ignition-physics5-sdf
+[6.385s] -- Looking for sdformat12 -- found version 12.8.0
+[6.415s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[6.415s] -- Searching for dependencies of ignition-sensors6
+[6.567s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[6.573s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.579s] -- Looking for ignition-common4 -- found version 4.7.0
+[6.581s] -- Looking for ignition-transport11 -- found version 11.4.1
+[6.586s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[6.588s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[6.594s] -- Looking for sdformat12 -- found version 12.8.0
+[6.602s] -- Searching for <ignition-sensors6> component [air_pressure]
+[6.614s] -- Looking for ignition-sensors6-air_pressure -- found version 6.8.1
+[6.616s] -- Searching for dependencies of ignition-sensors6-air_pressure
+[6.618s] -- Searching for <ignition-sensors6> component [altimeter]
+[6.642s] -- Looking for ignition-sensors6-altimeter -- found version 6.8.1
+[6.642s] -- Searching for dependencies of ignition-sensors6-altimeter
+[6.647s] -- Searching for <ignition-sensors6> component [imu]
+[6.670s] -- Looking for ignition-sensors6-imu -- found version 6.8.1
+[6.670s] -- Searching for dependencies of ignition-sensors6-imu
+[6.672s] -- Searching for <ignition-sensors6> component [force_torque]
+[6.683s] -- Looking for ignition-sensors6-force_torque -- found version 6.8.1
+[6.687s] -- Searching for dependencies of ignition-sensors6-force_torque
+[6.689s] -- Searching for <ignition-sensors6> component [logical_camera]
+[6.715s] -- Looking for ignition-sensors6-logical_camera -- found version 6.8.1
+[6.723s] -- Searching for dependencies of ignition-sensors6-logical_camera
+[6.731s] -- Searching for <ignition-sensors6> component [magnetometer]
+[6.753s] -- Looking for ignition-sensors6-magnetometer -- found version 6.8.1
+[6.762s] -- Searching for dependencies of ignition-sensors6-magnetometer
+[6.762s] -- Searching for <ignition-sensors6> component [navsat]
+[6.784s] -- Looking for ignition-sensors6-navsat -- found version 6.8.1
+[6.791s] -- Searching for dependencies of ignition-sensors6-navsat
+[6.794s] -- Searching for <ignition-sensors6> component [rendering]
+[6.822s] -- Looking for ignition-sensors6-rendering -- found version 6.8.1
+[6.824s] -- Searching for dependencies of ignition-sensors6-rendering
+[6.838s] -- Searching for <ignition-sensors6> component [lidar]
+[6.855s] -- Looking for ignition-sensors6-lidar -- found version 6.8.1
+[6.862s] -- Searching for dependencies of ignition-sensors6-lidar
+[6.873s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[6.881s] -- Searching for <ignition-sensors6> component [gpu_lidar]
+[6.918s] -- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.1
+[6.922s] -- Searching for dependencies of ignition-sensors6-gpu_lidar
+[6.928s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[6.939s] -- Searching for <ignition-sensors6> component [camera]
+[6.982s] -- Looking for ignition-sensors6-camera -- found version 6.8.1
+[6.992s] -- Searching for dependencies of ignition-sensors6-camera
+[7.003s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[7.015s] -- Searching for <ignition-sensors6> component [boundingbox_camera]
+[7.048s] -- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.1
+[7.056s] -- Searching for dependencies of ignition-sensors6-boundingbox_camera
+[7.058s] -- Searching for <ignition-sensors6> component [segmentation_camera]
+[7.092s] -- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.1
+[7.107s] -- Searching for dependencies of ignition-sensors6-segmentation_camera
+[7.107s] -- Searching for <ignition-sensors6> component [depth_camera]
+[7.143s] -- Looking for ignition-sensors6-depth_camera -- found version 6.8.1
+[7.154s] -- Searching for dependencies of ignition-sensors6-depth_camera
+[7.160s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[7.166s] -- Searching for <ignition-sensors6> component [rgbd_camera]
+[7.220s] -- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.1
+[7.222s] -- Searching for dependencies of ignition-sensors6-rgbd_camera
+[7.230s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[7.230s] -- Searching for <ignition-sensors6> component [thermal_camera]
+[7.255s] -- Looking for ignition-sensors6-thermal_camera -- found version 6.8.1
+[7.262s] -- Searching for dependencies of ignition-sensors6-thermal_camera
+[7.263s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[7.283s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[7.283s] -- Looking for ignition-math6 -- found version 6.15.1
+[7.319s] -- Looking for ignition-utils1 -- found version 1.5.1
+[7.538s] -- Compiling against Ignition Fortress
+[7.544s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[8.042s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.556s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.590s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.592s] -- Configured cppcheck include dirs: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/gz_ros2_control/ign_ros2_control/include
+[9.593s] -- Configured cppcheck exclude dirs and/or files: 
+[9.618s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.619s] -- Configured cpplint exclude dirs and/or files: 
+[9.645s] -- Added test 'lint_cmake' to check CMake code style
+[9.657s] -- Added test 'uncrustify' to check C / C++ code style
+[9.657s] -- Configured uncrustify additional arguments: 
+[9.671s] -- Added test 'xmllint' to check XML markup files
+[9.728s] -- Configuring done
+[10.444s] -- Generating done
+[10.495s] -- Build files have been written to: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ign_ros2_control
+[10.582s] Invoked command in '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ign_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface_testing:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_interface:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros2_control_test_assets:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/realtime_tools:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager_msgs:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface_testing:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_interface:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros2_control_test_assets:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/realtime_tools:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager_msgs:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface_testing/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_interface/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/realtime_tools/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager_msgs/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/gz_ros2_control/ign_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control
+[10.583s] Invoking command in '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ign_ros2_control': AMENT_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface_testing:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_interface:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros2_control_test_assets:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/realtime_tools:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager_msgs:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface_testing:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_interface:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros2_control_test_assets:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/realtime_tools:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager_msgs:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface_testing/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_interface/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/realtime_tools/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager_msgs/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ign_ros2_control -- -j20 -l20
+[57.044s] [ 25%] [32mBuilding CXX object CMakeFiles/ign_ros2_control-system.dir/src/ign_ros2_control_plugin.cpp.o[0m
+[57.044s] [ 50%] [32mBuilding CXX object CMakeFiles/ign_hardware_plugins.dir/src/ign_system.cpp.o[0m
+[57.044s] [ 75%] [32m[1mLinking CXX shared library libign_ros2_control-system.so[0m
+[57.044s] [ 75%] Built target ign_ros2_control-system
+[57.045s] [100%] [32m[1mLinking CXX shared library libign_hardware_plugins.so[0m
+[57.045s] [100%] Built target ign_hardware_plugins
+[57.070s] Invoked command in '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ign_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface_testing:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_interface:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros2_control_test_assets:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/realtime_tools:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager_msgs:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface_testing:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_interface:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros2_control_test_assets:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/realtime_tools:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager_msgs:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface_testing/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_interface/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/realtime_tools/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager_msgs/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ign_ros2_control -- -j20 -l20
+[57.071s] Invoking command in '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ign_ros2_control': AMENT_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface_testing:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_interface:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros2_control_test_assets:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/realtime_tools:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager_msgs:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface_testing:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_interface:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros2_control_test_assets:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/realtime_tools:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager_msgs:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface_testing/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_interface/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/realtime_tools/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager_msgs/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ign_ros2_control
+[57.424s] -- Install configuration: ""
+[57.425s] -- Execute custom install script
+[57.425s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control/lib/libign_hardware_plugins.so
+[57.425s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control/include/ign_ros2_control/ign_ros2_control_plugin.hpp
+[57.425s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control/include/ign_ros2_control/ign_system.hpp
+[57.425s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control/include/ign_ros2_control/ign_system_interface.hpp
+[57.425s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control/share/ign_ros2_control/environment/library_path.sh
+[57.425s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control/share/ign_ros2_control/environment/library_path.dsv
+[57.425s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control/lib/libign_ros2_control-system.so
+[57.425s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control/share/ign_ros2_control//ign_hardware_plugins.xml
+[57.425s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control/share/ament_index/resource_index/package_run_dependencies/ign_ros2_control
+[57.426s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control/share/ament_index/resource_index/parent_prefix_path/ign_ros2_control
+[57.426s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control/share/ign_ros2_control/environment/ament_prefix_path.sh
+[57.426s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control/share/ign_ros2_control/environment/ament_prefix_path.dsv
+[57.426s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control/share/ign_ros2_control/environment/path.sh
+[57.426s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control/share/ign_ros2_control/environment/path.dsv
+[57.426s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control/share/ign_ros2_control/local_setup.bash
+[57.426s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control/share/ign_ros2_control/local_setup.sh
+[57.426s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control/share/ign_ros2_control/local_setup.zsh
+[57.426s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control/share/ign_ros2_control/local_setup.dsv
+[57.427s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control/share/ign_ros2_control/package.dsv
+[57.427s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control/share/ament_index/resource_index/packages/ign_ros2_control
+[57.427s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control/share/ament_index/resource_index/ign_ros2_control__pluginlib__plugin/ign_ros2_control
+[57.427s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control/share/ign_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[57.427s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control/share/ign_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[57.427s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control/share/ign_ros2_control/cmake/ign_ros2_controlConfig.cmake
+[57.427s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control/share/ign_ros2_control/cmake/ign_ros2_controlConfig-version.cmake
+[57.427s] -- Symlinking: /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ign_ros2_control/share/ign_ros2_control/package.xml
+[57.477s] Invoked command in '/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ign_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface_testing:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_interface:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros2_control_test_assets:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/realtime_tools:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager_msgs:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface_testing:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_interface:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/ros2_control_test_assets:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/realtime_tools:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager_msgs:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface_testing/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_interface/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/hardware_interface/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/realtime_tools/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager_msgs/lib:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ign_ros2_control

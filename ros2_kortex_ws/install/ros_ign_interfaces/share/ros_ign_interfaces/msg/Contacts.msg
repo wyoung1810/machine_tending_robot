@@ -1,2 +1,1 @@
-std_msgs/Header header                  # Time stamp
-ros_gz_interfaces/Contact[] contacts   # List of contacts
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros_gz/ros_ign_interfaces/msg/Contacts.msg

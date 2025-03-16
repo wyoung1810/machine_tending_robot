@@ -1,2 +1,1 @@
-source;share/robotiq_hardware_tests/environment/ament_prefix_path.sh
-source;share/robotiq_hardware_tests/environment/path.sh
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/robotiq_hardware_tests/ament_cmake_environment_hooks/local_setup.dsv

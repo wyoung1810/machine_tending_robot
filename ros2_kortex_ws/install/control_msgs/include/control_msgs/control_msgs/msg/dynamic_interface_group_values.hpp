@@ -1,12 +1,1 @@
-// generated from rosidl_generator_cpp/resource/idl.hpp.em
-// generated code does not contain a copyright notice
-
-#ifndef CONTROL_MSGS__MSG__DYNAMIC_INTERFACE_GROUP_VALUES_HPP_
-#define CONTROL_MSGS__MSG__DYNAMIC_INTERFACE_GROUP_VALUES_HPP_
-
-#include "control_msgs/msg/detail/dynamic_interface_group_values__struct.hpp"
-#include "control_msgs/msg/detail/dynamic_interface_group_values__builder.hpp"
-#include "control_msgs/msg/detail/dynamic_interface_group_values__traits.hpp"
-#include "control_msgs/msg/detail/dynamic_interface_group_values__type_support.hpp"
-
-#endif  // CONTROL_MSGS__MSG__DYNAMIC_INTERFACE_GROUP_VALUES_HPP_
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/control_msgs/rosidl_generator_cpp/control_msgs/msg/dynamic_interface_group_values.hpp

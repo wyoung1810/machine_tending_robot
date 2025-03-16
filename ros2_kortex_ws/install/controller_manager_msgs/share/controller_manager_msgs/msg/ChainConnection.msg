@@ -1,2 +1,1 @@
-string name        # name of controller exporting reference_interfaces
-string[] reference_interfaces        # list of reference exported by controller
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros2_control/controller_manager_msgs/msg/ChainConnection.msg

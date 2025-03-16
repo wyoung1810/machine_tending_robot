@@ -1,11 +1,1 @@
-controller_manager:
-  ros__parameters:
-    update_rate: 100  # Hz
-
-ctrl_with_parameters_and_type:
-  ros__parameters:
-    type: "controller_manager/test_controller"
-    joint_names: ["joint0"]
-
-joint_state_broadcaster:
-  type: joint_state_broadcaster/JointStateBroadcaster
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros2_control/controller_manager/test/test_ros2_control_node.yaml

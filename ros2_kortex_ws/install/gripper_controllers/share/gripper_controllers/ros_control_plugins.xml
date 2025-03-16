@@ -1,17 +1,1 @@
-<library path="gripper_action_controller">
-
-  <class name="position_controllers/GripperActionController"
-         type="position_controllers::GripperActionController"
-         base_class_type="controller_interface::ControllerInterface">
-    <description>
-    </description>
-  </class>
-
-  <class name="effort_controllers/GripperActionController"
-         type="effort_controllers::GripperActionController"
-         base_class_type="controller_interface::ControllerInterface">
-    <description>
-    </description>
-  </class>
-
-</library>
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros2_controllers/gripper_controllers/ros_control_plugins.xml

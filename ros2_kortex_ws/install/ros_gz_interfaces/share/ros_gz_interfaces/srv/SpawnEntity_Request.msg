@@ -1,1 +1,1 @@
-ros_gz_interfaces/EntityFactory entity_factory  # Message to create a new entity
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_interfaces/rosidl_cmake/srv/SpawnEntity_Request.msg

@@ -1,2 +1,1 @@
-
-bool success                      # Return true if deletion is successful.
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/ros_gz_interfaces/rosidl_cmake/srv/DeleteEntity_Response.msg

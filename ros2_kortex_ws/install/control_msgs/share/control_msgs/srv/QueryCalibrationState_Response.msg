@@ -1,2 +1,1 @@
-
-bool is_calibrated
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/control_msgs/rosidl_cmake/srv/QueryCalibrationState_Response.msg

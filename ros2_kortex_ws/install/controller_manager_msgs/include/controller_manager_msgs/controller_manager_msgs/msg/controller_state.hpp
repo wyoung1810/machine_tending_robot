@@ -1,12 +1,1 @@
-// generated from rosidl_generator_cpp/resource/idl.hpp.em
-// generated code does not contain a copyright notice
-
-#ifndef CONTROLLER_MANAGER_MSGS__MSG__CONTROLLER_STATE_HPP_
-#define CONTROLLER_MANAGER_MSGS__MSG__CONTROLLER_STATE_HPP_
-
-#include "controller_manager_msgs/msg/detail/controller_state__struct.hpp"
-#include "controller_manager_msgs/msg/detail/controller_state__builder.hpp"
-#include "controller_manager_msgs/msg/detail/controller_state__traits.hpp"
-#include "controller_manager_msgs/msg/detail/controller_state__type_support.hpp"
-
-#endif  // CONTROLLER_MANAGER_MSGS__MSG__CONTROLLER_STATE_HPP_
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/build/controller_manager_msgs/rosidl_generator_cpp/controller_manager_msgs/msg/controller_state.hpp

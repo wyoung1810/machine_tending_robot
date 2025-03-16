@@ -1,11 +1,1 @@
-moveit_setup_assistant_config:
-  urdf:
-    package: kortex_description
-    relative_path: robots/gen3.xacro
-    xacro_args: gripper:=robotiq_2f_85 dof:=6
-  srdf:
-    relative_path: config/gen3.srdf
-  package_settings:
-    author_name: Anthony Baker
-    author_email: abake48@gmail.com
-    generated_timestamp: 1684357852
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros2_kortex/kortex_moveit_config/kinova_gen3_6dof_robotiq_2f_85_moveit_config/.setup_assistant

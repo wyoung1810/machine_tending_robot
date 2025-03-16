@@ -1,4 +1,1 @@
-maximum_linear_velocity: 0.5
-maximum_angular_velocity: 1.74
-maximum_linear_acceleration: 0.4
-maximum_angular_acceleration: 0.4
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros2_kortex/kortex_description/arms/gen3/6dof/config/twist_limits.yaml

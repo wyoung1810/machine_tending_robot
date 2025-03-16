@@ -1,3 +1,1 @@
-bool all false            # Reset time and model
-bool time_only false      # Reset time only
-bool model_only false     # Reset model only
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros_gz/ros_gz_interfaces/msg/WorldReset.msg

@@ -1,6 +1,1 @@
-string name
-string type
-string class_type
-lifecycle_msgs/State state
-HardwareInterface[] command_interfaces
-HardwareInterface[] state_interfaces
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros2_control/controller_manager_msgs/msg/HardwareComponentState.msg

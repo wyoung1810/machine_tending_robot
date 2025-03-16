@@ -1,7 +1,1 @@
-# A message for a vector of parameters data.
-
-# Optional header data.
-std_msgs/Header header
-
-# A set of name, value pairs
-rcl_interfaces/Parameter[] params
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros_gz/ros_gz_interfaces/msg/ParamVec.msg

@@ -1,12 +1,1 @@
-# Message for a GUI Camera.
-
-# Optional header data.
-std_msgs/Header header
-
-string name
-string view_controller
-geometry_msgs/Pose pose
-TrackVisual track
-
-# Type of projection: "perspective" or "orthographic".
-string projection_type
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros_gz/ros_gz_interfaces/msg/GuiCamera.msg

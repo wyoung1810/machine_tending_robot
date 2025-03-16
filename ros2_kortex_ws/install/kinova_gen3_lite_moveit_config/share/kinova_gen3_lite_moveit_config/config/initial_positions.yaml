@@ -1,10 +1,1 @@
-# Default initial positions for gen3_lite_gen3_lite_2f's ros2_control fake system
-
-initial_positions:
-  joint_1: 0
-  joint_2: 0
-  joint_3: 0
-  joint_4: 0
-  joint_5: 0
-  joint_6: 0
-  right_finger_bottom_joint: 0
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros2_kortex/kortex_moveit_config/kinova_gen3_lite_moveit_config/config/initial_positions.yaml

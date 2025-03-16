@@ -1,11 +1,1 @@
-<library path="test_chainable_controller">
-
-  <class name="controller_manager/test_chainable_controller"
-         type="test_chainable_controller::TestChainableController"
-         base_class_type="controller_interface::ChainableControllerInterface">
-    <description>
-      Controller used for testing
-    </description>
-  </class>
-
-</library>
+/home/mampane/Desktop/machine_tending_robot/ros2_kortex_ws/src/ros2_control/controller_manager/test/test_chainable_controller/test_chainable_controller.xml
