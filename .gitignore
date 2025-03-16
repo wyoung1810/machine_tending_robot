@@ -1,0 +1,13 @@
+__pycache__
+cmake_install.cmake
+install/
+log/
+build/
+build/ros_gz_bridge
+bin/
+lib/
+*.o
+*.so
+*.a
+!*.c
+!Makefile
