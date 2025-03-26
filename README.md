@@ -4,5 +4,5 @@ Documentation for automated machine tending system using a Kinova Gen3 robotic a
 Notes: 
 M101 and M102 files need to be set as executable
 
-Link to library and documentation for relay:
+Link to library and documentation for USB relay module:
 https://github.com/phelps-matthew/sainsmart-relay
