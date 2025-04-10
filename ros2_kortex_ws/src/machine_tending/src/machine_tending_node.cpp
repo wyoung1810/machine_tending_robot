@@ -51,6 +51,7 @@ rclcpp::node_interfaces::NodeBaseInterface::SharedPtr MTCTaskNode::getNodeBaseIn
 
 void MTCTaskNode::setupPlanningScene()
 {
+  // Make object to pick
   moveit_msgs::msg::CollisionObject object;
   object.id = "object";
   object.header.frame_id = "world";
@@ -59,13 +60,39 @@ void MTCTaskNode::setupPlanningScene()
   object.primitives[0].dimensions = { 0.1, 0.02 };
 
   geometry_msgs::msg::Pose pose;
-  pose.position.x = 0.5;
-  pose.position.y = -0.25;
+  pose.position.x = -0.5;
+  pose.position.y = -0.375;
+  pose.position.z = 0.05;
   pose.orientation.w = 1.0;
   object.pose = pose;
 
   moveit::planning_interface::PlanningSceneInterface psi;
   psi.applyCollisionObject(object);
+
+  // Make table to avoid
+  moveit_msgs::msg::CollisionObject collision_object;
+  collision_object.header.frame_id = "world";
+  collision_object.id = "box1";
+  shape_msgs::msg::SolidPrimitive primitive;
+
+  // Define the size of the box in meters
+  primitive.type = primitive.BOX;
+  primitive.dimensions.resize(3);
+  primitive.dimensions[primitive.BOX_X] = 2.0;
+  primitive.dimensions[primitive.BOX_Y] = 2.0;
+  primitive.dimensions[primitive.BOX_Z] = 0.2;
+
+  // Define the pose of the box (relative to the frame_id)
+  geometry_msgs::msg::Pose box_pose;
+  box_pose.orientation.w = 1.0;  // We can leave out the x, y, and z components of the quaternion since they are initialized to 0
+  // box_pose.position.x = 0.2;
+  // box_pose.position.y = 0.2;
+  box_pose.position.z = -0.105;
+
+  collision_object.primitives.push_back(primitive);
+  collision_object.primitive_poses.push_back(box_pose);
+  collision_object.operation = collision_object.ADD;
+  psi.applyCollisionObject(collision_object);
 }
 
 void MTCTaskNode::doTask()
@@ -182,7 +209,7 @@ mtc::Task MTCTaskNode::createTask()
       Eigen::Isometry3d grasp_frame_transform;
       Eigen::Quaterniond q = Eigen::AngleAxisd(M_PI / 2, Eigen::Vector3d::UnitX()) *
                             Eigen::AngleAxisd(M_PI, Eigen::Vector3d::UnitY()) *
-                            Eigen::AngleAxisd(M_PI / 2, Eigen::Vector3d::UnitZ());
+                            Eigen::AngleAxisd(M_PI, Eigen::Vector3d::UnitZ());
       grasp_frame_transform.linear() = q.matrix();
       grasp_frame_transform.translation().z() = 0.13;
 
@@ -266,7 +293,7 @@ mtc::Task MTCTaskNode::createTask()
     
       geometry_msgs::msg::PoseStamped target_pose_msg;
       target_pose_msg.header.frame_id = "object";
-      target_pose_msg.pose.position.y = 0.5;
+      target_pose_msg.pose.position.y = 0.75;
       target_pose_msg.pose.orientation.w = 1.0;
       stage->setPose(target_pose_msg);
       stage->setMonitoredStage(attach_object_stage);  // Hook into attach_object_stage
@@ -309,14 +336,14 @@ mtc::Task MTCTaskNode::createTask()
     {
       auto stage = std::make_unique<mtc::stages::MoveRelative>("retreat", cartesian_planner);
       stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
-      stage->setMinMaxDistance(0.1, 0.3);
+      stage->setMinMaxDistance(0.01, 0.3);
       stage->setIKFrame(hand_frame);
       stage->properties().set("marker_ns", "retreat");
     
       // Set retreat direction
       geometry_msgs::msg::Vector3Stamped vec;
       vec.header.frame_id = "world";
-      vec.vector.x = -0.5;
+      vec.vector.z = 0.5;
       stage->setDirection(vec);
       place->insert(std::move(stage));
     }
