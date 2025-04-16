@@ -29,8 +29,9 @@ public:
   // MTCTaskNode()
   : Node("machine_tending_node", options)
   {
-    subscription_ = this->create_subscription<std_msgs::msg::String>(
-    "my_topic", 10, std::bind(&MTCTaskNode::topic_callback, this, std::placeholders::_1));
+    // Make relay_to_arm subscriber
+    relay_to_arm_sub_ = this->create_subscription<std_msgs::msg::String>(
+    "relay_to_arm", 10, std::bind(&MTCTaskNode::topic_callback, this, std::placeholders::_1));
   }
 
   rclcpp::node_interfaces::NodeBaseInterface::SharedPtr getNodeBaseInterface();
@@ -44,13 +45,13 @@ private:
     // Process the received message
     RCLCPP_INFO(LOGGER, "Received: %s", msg->data.c_str());
 
-    if (msg->data == "3") {
+    if (msg->data == "00000001") {
       RCLCPP_INFO(LOGGER, "Noice");
       this->doTask();
     }
     // You can modify your MTC task based on the message content here
   }
-  rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
+  rclcpp::Subscription<std_msgs::msg::String>::SharedPtr relay_to_arm_sub_;
 
   // Compose an MTC task from a series of stages.
   mtc::Task createTask();
