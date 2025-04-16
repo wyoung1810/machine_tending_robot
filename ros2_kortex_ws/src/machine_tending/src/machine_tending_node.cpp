@@ -60,9 +60,9 @@ void MTCTaskNode::setupPlanningScene()
   object.primitives[0].dimensions = { 0.1, 0.02 };
 
   geometry_msgs::msg::Pose pose;
-  pose.position.x = -0.5;
-  pose.position.y = -0.375;
-  pose.position.z = 0.05;
+  pose.position.x = -0.5; // m
+  pose.position.y = -0.375; // m
+  pose.position.z = 0.05; // m
   pose.orientation.w = 1.0;
   object.pose = pose;
 

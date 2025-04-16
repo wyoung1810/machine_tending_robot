@@ -5,11 +5,16 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-# find dependencies
+# C++ Dependencies
 find_package(ament_cmake REQUIRED)
 find_package(moveit_task_constructor_core REQUIRED)
 find_package(rclcpp REQUIRED)
 
+# Python Dependencies
+find_package(ament_cmake_python REQUIRED)
+find_package(rclpy REQUIRED)
+
+# C++ Executable
 add_executable(machine_tending_node src/machine_tending_node.cpp)
 target_include_directories(machine_tending_node PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -24,6 +29,15 @@ ament_target_dependencies(
 install(TARGETS machine_tending_node
   DESTINATION lib/${PROJECT_NAME})
 
+# Python install
+ament_python_install_package(${PROJECT_NAME})
+
+install(PROGRAMS
+  machine_tending/relay_interface.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+# Install launch files
 install(DIRECTORY launch
   DESTINATION share/${PROJECT_NAME}
 )
