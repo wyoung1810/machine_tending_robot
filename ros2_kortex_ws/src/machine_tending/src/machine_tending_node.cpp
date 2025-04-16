@@ -1,4 +1,5 @@
 #include <rclcpp/rclcpp.hpp>
+#include "std_msgs/msg/string.hpp"
 #include <moveit/planning_scene/planning_scene.h>
 #include <moveit/planning_scene_interface/planning_scene_interface.h>
 #include <moveit/task_constructor/task.h>
@@ -21,10 +22,16 @@
 static const rclcpp::Logger LOGGER = rclcpp::get_logger("machine_tending");
 namespace mtc = moveit::task_constructor;
 
-class MTCTaskNode
+class MTCTaskNode : public rclcpp::Node
 {
 public:
-  MTCTaskNode(const rclcpp::NodeOptions& options);
+  MTCTaskNode(const rclcpp::NodeOptions& options)
+  // MTCTaskNode()
+  : Node("machine_tending_node", options)
+  {
+    subscription_ = this->create_subscription<std_msgs::msg::String>(
+    "my_topic", 10, std::bind(&MTCTaskNode::topic_callback, this, std::placeholders::_1));
+  }
 
   rclcpp::node_interfaces::NodeBaseInterface::SharedPtr getNodeBaseInterface();
 
@@ -33,21 +40,22 @@ public:
   void setupPlanningScene();
 
 private:
+  void topic_callback(const std_msgs::msg::String::SharedPtr msg) {
+    // Process the received message
+    RCLCPP_INFO(LOGGER, "Received: %s", msg->data.c_str());
+
+    if (msg->data == "3") {
+      RCLCPP_INFO(LOGGER, "Noice");
+      this->doTask();
+    }
+    // You can modify your MTC task based on the message content here
+  }
+  rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
+
   // Compose an MTC task from a series of stages.
   mtc::Task createTask();
   mtc::Task task_;
-  rclcpp::Node::SharedPtr node_;
 };
-
-MTCTaskNode::MTCTaskNode(const rclcpp::NodeOptions& options)
-  : node_{ std::make_shared<rclcpp::Node>("machine_tending_node", options) }
-{
-}
-
-rclcpp::node_interfaces::NodeBaseInterface::SharedPtr MTCTaskNode::getNodeBaseInterface()
-{
-  return node_->get_node_base_interface();
-}
 
 void MTCTaskNode::setupPlanningScene()
 {
@@ -60,7 +68,7 @@ void MTCTaskNode::setupPlanningScene()
   object.primitives[0].dimensions = { 0.1, 0.02 };
 
   geometry_msgs::msg::Pose pose;
-  pose.position.x = -0.5; // m
+  pose.position.x = 0.5; // m
   pose.position.y = -0.375; // m
   pose.position.z = 0.05; // m
   pose.orientation.w = 1.0;
@@ -130,7 +138,8 @@ mtc::Task MTCTaskNode::createTask()
 {
   mtc::Task task;
   task.stages()->setName("pick and place");
-  task.loadRobotModel(node_);
+  RCLCPP_INFO(LOGGER, "Not noice");
+  task.loadRobotModel(shared_from_this());
 
   const auto& arm_group_name = "manipulator";
   const auto& hand_group_name = "gripper";
@@ -152,11 +161,18 @@ mtc::Task MTCTaskNode::createTask()
   task.add(std::move(stage_state_current));
 
   // Define planers and reconfigure their action servers
-  auto sampling_planner = std::make_shared<mtc::solvers::PipelinePlanner>(node_);
+  const int scaling_factor = 0.1;
+  auto sampling_planner = std::make_shared<mtc::solvers::PipelinePlanner>(shared_from_this());
+  sampling_planner->setMaxVelocityScalingFactor(scaling_factor);
+  sampling_planner->setMaxAccelerationScalingFactor(scaling_factor);
+
   auto interpolation_planner = std::make_shared<mtc::solvers::JointInterpolationPlanner>();
+  interpolation_planner->setMaxVelocityScalingFactor(scaling_factor);
+  interpolation_planner->setMaxAccelerationScalingFactor(scaling_factor);
+
   auto cartesian_planner = std::make_shared<mtc::solvers::CartesianPath>();
-  cartesian_planner->setMaxVelocityScalingFactor(1.0);
-  cartesian_planner->setMaxAccelerationScalingFactor(1.0);
+  cartesian_planner->setMaxVelocityScalingFactor(scaling_factor);
+  cartesian_planner->setMaxAccelerationScalingFactor(scaling_factor);
   cartesian_planner->setStepSize(.01);
 
   auto stage_open_hand =
@@ -369,18 +385,10 @@ int main(int argc, char** argv)
   options.automatically_declare_parameters_from_overrides(true);
 
   auto machine_tending_task_node = std::make_shared<MTCTaskNode>(options);
-  rclcpp::executors::MultiThreadedExecutor executor;
-
-  auto spin_thread = std::make_unique<std::thread>([&executor, &machine_tending_task_node]() {
-    executor.add_node(machine_tending_task_node->getNodeBaseInterface());
-    executor.spin();
-    executor.remove_node(machine_tending_task_node->getNodeBaseInterface());
-  });
-
   machine_tending_task_node->setupPlanningScene();
-  machine_tending_task_node->doTask();
 
-  spin_thread->join();
+  rclcpp::spin(machine_tending_task_node);
+
   rclcpp::shutdown();
   return 0;
 }
