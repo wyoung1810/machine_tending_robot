@@ -22,21 +22,22 @@
 static const rclcpp::Logger LOGGER = rclcpp::get_logger("machine_tending");
 namespace mtc = moveit::task_constructor;
 
-class MTCTaskNode : public rclcpp::Node
+class MachineTendingNode : public rclcpp::Node
 {
 public:
-  MTCTaskNode(const rclcpp::NodeOptions& options)
-  // MTCTaskNode()
+  MachineTendingNode(const rclcpp::NodeOptions& options)
+  // MachineTendingNode()
   : Node("machine_tending_node", options)
   {
-    // Make relay_to_arm subscriber
-    relay_to_arm_sub_ = this->create_subscription<std_msgs::msg::String>(
-    "relay_to_arm", 10, std::bind(&MTCTaskNode::topic_callback, this, std::placeholders::_1));
+    // Make arduino_to_arm subscriber
+    arduino_to_arm_sub_ = this->create_subscription<std_msgs::msg::String>(
+    "arduino_to_arm", 10, std::bind(&MachineTendingNode::topic_callback, this, std::placeholders::_1));
+
+    // Make arm_to_relay publisher
+    arm_to_relay_pub_ = this->create_publisher<std_msgs::msg::String>("arm_to_relay", 10);
   }
 
-  rclcpp::node_interfaces::NodeBaseInterface::SharedPtr getNodeBaseInterface();
-
-  void doTask();
+  void doTask(std::function<mtc::Task()> func, std::string arm_state_);
 
   void setupPlanningScene();
 
@@ -45,20 +46,32 @@ private:
     // Process the received message
     RCLCPP_INFO(LOGGER, "Received: %s", msg->data.c_str());
 
-    if (msg->data == "00000001") {
-      RCLCPP_INFO(LOGGER, "Noice");
-      this->doTask();
+    if (msg->data == "2") {
+      RCLCPP_INFO(LOGGER, "Load");
+      this->doTask([this](){return this->openHand();}, "load");
     }
-    // You can modify your MTC task based on the message content here
+    if (msg->data == "3") {
+      RCLCPP_INFO(LOGGER, "Unload");
+      this->doTask([this](){return this->closeHand();}, "unload");
+    }
   }
-  rclcpp::Subscription<std_msgs::msg::String>::SharedPtr relay_to_arm_sub_;
-
+  void arm_pub(std::string arm_state_)
+  {
+    auto message_ = std_msgs::msg::String();
+    message_.data = arm_state_;
+    RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message_.data.c_str());
+    arm_to_relay_pub_->publish(message_);
+  }
   // Compose an MTC task from a series of stages.
   mtc::Task createTask();
+  mtc::Task openHand();
+  mtc::Task closeHand();
   mtc::Task task_;
+  rclcpp::Subscription<std_msgs::msg::String>::SharedPtr arduino_to_arm_sub_;
+  rclcpp::Publisher<std_msgs::msg::String>::SharedPtr arm_to_relay_pub_;
 };
 
-void MTCTaskNode::setupPlanningScene()
+void MachineTendingNode::setupPlanningScene()
 {
   // Make object to pick
   moveit_msgs::msg::CollisionObject object;
@@ -104,9 +117,9 @@ void MTCTaskNode::setupPlanningScene()
   psi.applyCollisionObject(collision_object);
 }
 
-void MTCTaskNode::doTask()
+void MachineTendingNode::doTask(std::function<mtc::Task()> func, std::string arm_state_)
 {
-  task_ = createTask();
+  task_ = func();
 
   try
   {
@@ -132,14 +145,113 @@ void MTCTaskNode::doTask()
     return;
   }
 
+  arm_pub(arm_state_);
+
   return;
 }
 
-mtc::Task MTCTaskNode::createTask()
+mtc::Task MachineTendingNode::openHand()
+{
+  mtc::Task task_;
+  task_.stages()->setName("pick and place");
+  task_.loadRobotModel(shared_from_this());
+
+  const auto& arm_group_name = "manipulator";
+  const auto& hand_group_name = "gripper";
+  const auto& hand_frame = "robotiq_85_base_link";
+
+  // Set task properties
+  task_.setProperty("group", arm_group_name);
+  task_.setProperty("eef", hand_group_name);
+  task_.setProperty("ik_frame", hand_frame);
+
+  // Disable warnings for this line, as it's a variable that's set but not used in this example
+  #pragma GCC diagnostic push
+  #pragma GCC diagnostic ignored "-Wunused-but-set-variable"
+  mtc::Stage* current_state_ptr = nullptr;  // Forward current_state on to grasp pose generator
+  #pragma GCC diagnostic pop
+
+  auto stage_state_current = std::make_unique<mtc::stages::CurrentState>("current");
+  current_state_ptr = stage_state_current.get();
+  task_.add(std::move(stage_state_current));
+
+  // Define planers and reconfigure their action servers
+  const int scaling_factor = 0.1;
+  auto sampling_planner = std::make_shared<mtc::solvers::PipelinePlanner>(shared_from_this());
+  sampling_planner->setMaxVelocityScalingFactor(scaling_factor);
+  sampling_planner->setMaxAccelerationScalingFactor(scaling_factor);
+
+  auto interpolation_planner = std::make_shared<mtc::solvers::JointInterpolationPlanner>();
+  interpolation_planner->setMaxVelocityScalingFactor(scaling_factor);
+  interpolation_planner->setMaxAccelerationScalingFactor(scaling_factor);
+
+  auto cartesian_planner = std::make_shared<mtc::solvers::CartesianPath>();
+  cartesian_planner->setMaxVelocityScalingFactor(scaling_factor);
+  cartesian_planner->setMaxAccelerationScalingFactor(scaling_factor);
+  cartesian_planner->setStepSize(.01);
+
+  auto stage_open_hand =
+      std::make_unique<mtc::stages::MoveTo>("open hand", interpolation_planner);
+  stage_open_hand->setGroup(hand_group_name);
+  stage_open_hand->setGoal("Open");
+  task_.add(std::move(stage_open_hand));
+
+  return task_;
+}
+
+mtc::Task MachineTendingNode::closeHand()
+{
+  mtc::Task task_;
+  task_.stages()->setName("pick and place");
+  task_.loadRobotModel(shared_from_this());
+
+  const auto& arm_group_name = "manipulator";
+  const auto& hand_group_name = "gripper";
+  const auto& hand_frame = "robotiq_85_base_link";
+
+  // Set task properties
+  task_.setProperty("group", arm_group_name);
+  task_.setProperty("eef", hand_group_name);
+  task_.setProperty("ik_frame", hand_frame);
+
+  // Disable warnings for this line, as it's a variable that's set but not used in this example
+  #pragma GCC diagnostic push
+  #pragma GCC diagnostic ignored "-Wunused-but-set-variable"
+  mtc::Stage* current_state_ptr = nullptr;  // Forward current_state on to grasp pose generator
+  #pragma GCC diagnostic pop
+
+  auto stage_state_current = std::make_unique<mtc::stages::CurrentState>("current");
+  current_state_ptr = stage_state_current.get();
+  task_.add(std::move(stage_state_current));
+
+  // Define planers and reconfigure their action servers
+  const int scaling_factor = 0.1;
+  auto sampling_planner = std::make_shared<mtc::solvers::PipelinePlanner>(shared_from_this());
+  sampling_planner->setMaxVelocityScalingFactor(scaling_factor);
+  sampling_planner->setMaxAccelerationScalingFactor(scaling_factor);
+
+  auto interpolation_planner = std::make_shared<mtc::solvers::JointInterpolationPlanner>();
+  interpolation_planner->setMaxVelocityScalingFactor(scaling_factor);
+  interpolation_planner->setMaxAccelerationScalingFactor(scaling_factor);
+
+  auto cartesian_planner = std::make_shared<mtc::solvers::CartesianPath>();
+  cartesian_planner->setMaxVelocityScalingFactor(scaling_factor);
+  cartesian_planner->setMaxAccelerationScalingFactor(scaling_factor);
+  cartesian_planner->setStepSize(.01);
+
+  auto stage_close_hand =
+      std::make_unique<mtc::stages::MoveTo>("close hand", interpolation_planner);
+  stage_close_hand->setGroup(hand_group_name);
+  stage_close_hand->setGoal("Close");
+  task_.add(std::move(stage_close_hand));
+
+  return task_;
+}
+
+mtc::Task MachineTendingNode::createTask()
 {
   mtc::Task task;
   task.stages()->setName("pick and place");
-  RCLCPP_INFO(LOGGER, "Not noice");
   task.loadRobotModel(shared_from_this());
 
   const auto& arm_group_name = "manipulator";
@@ -385,7 +497,7 @@ int main(int argc, char** argv)
   rclcpp::NodeOptions options;
   options.automatically_declare_parameters_from_overrides(true);
 
-  auto machine_tending_task_node = std::make_shared<MTCTaskNode>(options);
+  auto machine_tending_task_node = std::make_shared<MachineTendingNode>(options);
   machine_tending_task_node->setupPlanningScene();
 
   rclcpp::spin(machine_tending_task_node);

@@ -8,42 +8,38 @@ from sainsmart_relay.relay import FTDIBitbangRelay
 # Initialize the relay controller with the device ID
 relay_controller = FTDIBitbangRelay(device_id='AB0NXT9F')
 
-class MinimalPublisher(Node):
-
-    relay_state = "00000000"
+class RelayInterfaceNode(Node):
 
     def __init__(self):
-        super().__init__('minimal_publisher')
-        self.publisher_ = self.create_publisher(String, 'relay_to_arm', 10)
-        timer_period = 0.5  # seconds
-        self.timer = self.create_timer(timer_period, self.timer_callback)
+        super().__init__('relay_interface')
+        self.subscription = self.create_subscription(
+            String,
+            'arm_to_relay',
+            self.sub_callback,
+            10)
+        self.subscription  # prevent unused variable warning
 
-    def timer_callback(self):
-        msg = String()
-        msg.data = read_relay_state()
-        if msg.data != self.relay_state:
-            self.relay_state = msg.data
-            self.publisher_.publish(msg)
-            self.get_logger().info('Publishing: "%s"' % msg.data)
-
-def read_relay_state():
-    # Retrieve the current relay state
-    state = relay_controller.get_relay_state()
-
-    # Convert relay state to a readable string
-    return f"{state:08b}"
+    def sub_callback(self, msg):
+        if msg.data == "load":
+            relay_controller.set_relay(1, 'on')
+            relay_controller.set_relay(2, 'off')
+            self.get_logger().info('"%s"' % msg.data)
+        if msg.data == "unload":
+            relay_controller.set_relay(1, 'off')
+            relay_controller.set_relay(2, 'on')
+            self.get_logger().info('"%s"' % msg.data)
 
 def main(args=None):
     rclpy.init(args=args)
 
-    minimal_publisher = MinimalPublisher()
+    relay_interface = RelayInterfaceNode()
 
-    rclpy.spin(minimal_publisher)
+    rclpy.spin(relay_interface)
 
     # Destroy the node explicitly
     # (optional - otherwise it will be done automatically
     # when the garbage collector destroys the node object)
-    minimal_publisher.destroy_node()
+    relay_interface.destroy_node()
     rclpy.shutdown()
 
 
