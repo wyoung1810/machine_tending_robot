@@ -3,45 +3,50 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
-# from pyfirmata2 import Arduino, util, INPUT
-# import time
-
-# Connect to the Arduino board
-# board = Arduino("/dev/ttyACM0")  # use '/dev/ttyACM0' for Linux or 'COM4' for Windows
+import serial
+import time
 
 class ArduinoInterfaceNode(Node):
 
-    arduino_state = "0"
-
     def __init__(self):
         super().__init__('arduino_interface')
+        self.arduino_state = "0,0"
+        self.ser = serial.Serial('/dev/ttyACM0', 9600)  # use '/dev/ttyACM0' for Linux or 'COM4' for Windows and baud rate
         self.arduino_to_arm_pub = self.create_publisher(String, 'arduino_to_arm', 10)
+
         timer_period = 0.5  # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
 
     def timer_callback(self):
-        msg = String()
-        # msg.data = read_arduino_state()
-        # self.get_logger().info('Publishing: "%s"' % msg.data)
+        if self.ser.in_waiting:
+            msg = String()
+            msg.data = self.ser.readline().decode().strip()
 
-        msg.data = "3"
-        if msg.data != self.arduino_state:
-            self.arduino_state = msg.data
-            self.arduino_to_arm_pub.publish(msg)
-            self.get_logger().info('Publishing: "%s"' % msg.data)
+            if msg.data != self.arduino_state:
+                try:
+                    if msg.data == "0,0":
+                        self.arduino_state = msg.data
+                        self.get_logger().info('Neutral')
+                    if msg.data == "1,0":
+                        self.arduino_state = msg.data
+                        self.get_logger().info('Load')
+                        msg.data = "load"
+                        self.arduino_to_arm_pub.publish(msg)
+                    if msg.data == "0,1":
+                        self.arduino_state = msg.data
+                        self.get_logger().info('Unload')
+                        msg.data = "unload"
+                        self.arduino_to_arm_pub.publish(msg)
+                
+                except ValueError:
+                    self.get_logger().warn(f"Invalid data: {msg}")
 
-# def read_arduino_state():
-#     # Define the pins
-#     digital_pins = [board.digital[2], board.digital[3]]  # D2, D3
-
-#     # Set digital pins as inputs (assuming reading from them)
-#     for d_pin in digital_pins:
-#         d_pin.mode = INPUT
-#         d_pin.enable_reporting()    
-
-#     # Digital reads
-#     digital_values = [pin.read() for pin in digital_pins]
-#     return digital_values
+        # msg = String()
+        # msg.data = "3"
+        # if msg.data != self.arduino_state:
+        #     self.arduino_state = msg.data
+        #     self.arduino_to_arm_pub.publish(msg)
+        #     self.get_logger().info('Publishing: "%s"' % msg.data)
 
 def main(args=None):
     rclpy.init(args=args)

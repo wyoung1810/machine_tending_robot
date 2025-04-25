@@ -46,11 +46,11 @@ private:
     // Process the received message
     RCLCPP_INFO(LOGGER, "Received: %s", msg->data.c_str());
 
-    if (msg->data == "2") {
+    if (msg->data == "load") {
       RCLCPP_INFO(LOGGER, "Load");
       this->doTask([this](){return this->openHand();}, "load");
     }
-    if (msg->data == "3") {
+    if (msg->data == "unload") {
       RCLCPP_INFO(LOGGER, "Unload");
       this->doTask([this](){return this->closeHand();}, "unload");
     }
