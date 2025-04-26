@@ -21,12 +21,12 @@ class RelayInterfaceNode(Node):
 
     def sub_callback(self, msg):
         if msg.data == "load":
-            relay_controller.set_relay(1, 'on')
-            relay_controller.set_relay(2, 'off')
+            relay_controller.set_relay(3, 'on')
+            relay_controller.set_relay(4, 'off')
             self.get_logger().info('"%s"' % msg.data)
         if msg.data == "unload":
-            relay_controller.set_relay(1, 'off')
-            relay_controller.set_relay(2, 'on')
+            relay_controller.set_relay(3, 'off')
+            relay_controller.set_relay(4, 'on')
             self.get_logger().info('"%s"' % msg.data)
 
 def main(args=None):

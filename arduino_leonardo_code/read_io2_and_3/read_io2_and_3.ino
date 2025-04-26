@@ -1,18 +1,17 @@
 void setup() {
   Serial.begin(9600);
-  pinMode(2, INPUT);  // Set pin 2 as input
-  pinMode(3, INPUT);  // Set pin 3 as input
+  pinMode(10, INPUT);  // Set pin 12 as input
+  pinMode(11, INPUT);  // Set pin 13 as input
 }
 
 void loop() {
-  digitalWrite(2, HIGH);
-  int pin2Value = digitalRead(2);
-  int pin3Value = digitalRead(3);
+  int pin10Value = digitalRead(10);
+  int pin11Value = digitalRead(11);
   
   // Send both pin states as a comma-separated string
-  Serial.print(pin2Value);
+  Serial.print(pin10Value);
   Serial.print(",");
-  Serial.println(pin3Value);
+  Serial.println(pin11Value);
   
   delay(100);  // Read pins 10 times per second
 }
