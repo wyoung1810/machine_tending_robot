@@ -32,7 +32,7 @@
         <joint name="robotiq_85_left_knuckle_joint" value="0"/>
     </group_state>
     <group_state name="Close" group="gripper">
-        <joint name="robotiq_85_left_knuckle_joint" value="0.8"/>
+        <joint name="robotiq_85_left_knuckle_joint" value="0.3"/>
     </group_state>
         <group_state name="Home" group="manipulator">
         <joint name="joint_1" value="0" />
